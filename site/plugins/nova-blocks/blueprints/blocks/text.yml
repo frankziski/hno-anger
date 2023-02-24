@@ -1,0 +1,15 @@
+icon: text
+name: Text
+preview: text
+wysiwyg: true
+fields:
+  text:
+    label: Text
+    placeholder: Text...
+    type: writer
+  fontColor:
+    extends: fields/font-color
+    width: 1/1
+  line:
+    type: line
+  blocksettings: fields/blocksettings

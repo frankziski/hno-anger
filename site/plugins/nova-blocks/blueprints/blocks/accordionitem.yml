@@ -1,0 +1,16 @@
+name: 
+  en: Accordion Element
+  de: Akkoredon Element
+icon: bars
+fields:
+  summary:
+    label: 
+      en: Title
+      de: Titel
+    type: writer
+    marks: false
+    placeholder: Titel eingeben
+  details:
+    label: Detail
+    type: writer
+    marks: true

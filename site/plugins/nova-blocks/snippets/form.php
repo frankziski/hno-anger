@@ -1,0 +1,1 @@
+<?php snippet('form', ['contentPage' => $block, 'formID' => $block->formID()]); ?>

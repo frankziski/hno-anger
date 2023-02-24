@@ -1,0 +1,45 @@
+Title: Impressum
+
+----
+
+Blocks: [{"attrs":{"width":"large","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":{"text":"<h1>Impressum<\/h1>","fontcolor":"normal","aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"c2e8ca8b-e723-4ea5-b98d-c535914a0f76","isHidden":false,"type":"text"},{"content":[],"id":"533d273d-074d-4e56-950d-51c2f7ef4931","isHidden":false,"type":"spacer"},{"content":{"text":"<h5><strong>Angaben gem\u00e4\u00df \u00a7 5 TMG<\/strong><\/h5><p>Gemeinschaftspraxis f\u00fcr HNO-Heilkunde<br>Dres. med. M. Fabris und A. Heuschkel<br>Anger 7<br>99084 Erfurt<\/p><p>0361\u2009\/\u200964\u200938\u2009262<br><a href=\"mailto:info@hno-am-anger.de\">info@hno-am-anger.de<\/a><br>www.hno-am-anger.de<\/p><p><\/p><h5><strong>EU-Streitschlichtung<\/strong><\/h5><p>Die Europ\u00e4ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href=\"https:\/\/ec.europa.eu\/consumers\/odr\/\" rel=\"noopener noreferrer\">https:\/\/ec.europa.eu\/consumers\/odr\/<\/a>.<br>Unsere E-Mail-Adresse finden Sie oben im Impressum.<\/p><h5><strong>Verbraucher\u00adstreitbeilegung\/\u00adUniversal\u00adschlichtungs\u00adstelle<\/strong><\/h5><p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.<\/p>","fontcolor":"normal","aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"81bab4b5-b6d6-4bc8-bd05-7b4459909355","isHidden":false,"type":"text"}],"id":"55f2eb0e-c59b-4625-953d-fe3b850c63d0","width":"1\/1"}],"id":"dcf6b82c-10ad-43c3-81a5-75fb93d5217f"}]
+
+----
+
+Pagetitle: 
+
+----
+
+Keywords: 
+
+----
+
+Description: 
+
+----
+
+Cover: 
+
+----
+
+Excludefromsitemap: false
+
+----
+
+Date: 2022-07-05
+
+----
+
+Customcss: 
+
+----
+
+Codeheader: 
+
+----
+
+Codefooter: 
+
+----
+
+Uuid: x3MLzTRZU7SgADas

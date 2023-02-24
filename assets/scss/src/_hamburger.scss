@@ -1,0 +1,143 @@
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+
+.navbar-toggler {
+    padding: 0 var(--space-05);
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+
+    @include large {
+        padding: 0 var(--space-025);
+    }
+}
+
+.hamburger {
+    --toggler-color: var(--color-white);
+    --toggler-color-hover: var(--color-white);
+
+    padding: var(--space-10);
+    display: inline-block;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible;
+
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+
+    --button-size: 32px;
+
+    @include large {
+        padding: var(--space-10) var(--space-05);
+    }
+
+    &:hover {
+        .hamburger-inner {
+            background-color: var(--toggler-color-hover);
+
+            &::after,
+            &::before {
+                background-color: var(--toggler-color-hover);
+            }
+        }
+    }
+}
+
+
+.hamburger-box {
+    width: var(--button-size);
+    height: var(--button-size);
+    display: inline-block;
+    position: relative;
+}
+
+.hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px;
+
+    width: var(--button-size);
+    height: 4px;
+    background-color: var(--toggler-color);
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+
+    &::after,
+    &::before {
+        content: "";
+        display: block;
+        width: var(--button-size);
+        height: 4px;
+        background-color: var(--toggler-color);
+        border-radius: 4px;
+        position: absolute;
+        transition-property: transform;
+        transition-duration: 0.15s;
+        transition-timing-function: ease;
+    }
+
+    &::before {
+        top: -8px;
+    }
+    &::after {
+        bottom: -8px;
+    }
+}
+
+/*
+   * Arrow Turn
+   */
+.hamburger--arrowturn {
+    &:hover {
+        .hamburger-inner {
+            transform: rotate(-180deg);
+
+            &::before {
+                transform: translate3d(6px, 0, 0) rotate(45deg) scale(0.7, 1);
+            }
+            &::after {
+                transform: translate3d(6px, 0, 0) rotate(-45deg) scale(0.7, 1);
+            }
+        }
+    }
+}
+
+/*
+   * Close
+   */
+.hamburger--close  {
+    .hamburger-inner {
+        transform: rotate(45deg);
+
+        &::before {
+            top: 0;
+        }
+        &::after {
+            bottom: 0;
+            transform: rotate(-90deg);
+        }
+    }
+
+    &:hover {
+        .hamburger-inner{
+            transform: rotate(135deg);
+        }
+    }
+}

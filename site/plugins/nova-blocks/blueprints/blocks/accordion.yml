@@ -1,0 +1,50 @@
+name: 
+  en: Accordion
+  de: Akkordeon
+icon: bars
+fields:
+  heading:
+    extends: fields/heading
+  level:
+    extends: fields/headinglevel
+  items:
+    label: 
+      en: Items
+      de: Elemente
+    type: blocks
+    fieldsets:
+      - accordionitem
+  line:
+    type: line
+  customID:
+    label: ID
+    type: text
+    default: accordion1
+    help:
+      en: use individual labels when having multiple accordions on the same page
+      de: Nutze einzigartige IDS wenn auf einer Seite mehrere Akkordeons existieren
+    width: 1/2
+  customClass:
+    label: 
+      en: Class
+      de: Klasse
+    type: text
+    width: 1/2
+  behaviour:
+    label:
+      en: Behaviour
+      de: Verhalten
+    type: radio
+    columns: 2
+    default: multiple
+    options:
+      single: Single
+      multiple:
+        en: Multiple
+        de: Mehrfach
+    help:
+      en: If >Single< all other elements will be closed when opening a new element
+      de: Wenn >Single< werden andere Elemente geschlossen sobald man ein neues öffnet
+  line:
+    type: line
+  blocksettings: fields/blocksettings

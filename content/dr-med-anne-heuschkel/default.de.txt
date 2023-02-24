@@ -1,0 +1,45 @@
+Title: Dr. med. Anne Heuschkel
+
+----
+
+Blocks: [{"attrs":{"width":"small","alignvertical":"align-items-center","padding":"padding-top, padding-bottom","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-doc-opening-img"},"columns":[{"blocks":[{"content":{"source":["file:\/\/kXTc71eR87OS7rXs"],"showlightbox":"false","linkfield":[],"aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"a10361ce-138d-4cc1-b537-e9f066405888","isHidden":false,"type":"image"}],"id":"d3094f97-56f2-48bc-9bf1-34900b26ef0c","width":"1\/1"}],"id":"95638b8c-51fc-4200-83df-264d352a97b8"},{"attrs":{"width":"small","alignvertical":"align-items-center","padding":"padding-top, padding-bottom","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-doc-name"},"columns":[{"blocks":[{"content":{"text":"<h1>Dr. med. Anne Heuschkel<\/h1>","fontcolor":"primary","aligncontent":"center","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"6aa36410-3abc-447c-8360-9c382940f3f5","isHidden":false,"type":"text"}],"id":"7346e3b6-9a8e-4d68-a50d-4613446de5fc","width":"1\/1"}],"id":"070fc491-4daa-49eb-b8d2-54c402c88ba5"},{"attrs":{"width":"small","alignvertical":"align-items-center","padding":"padding-top, padding-bottom","marginbottom":"false","bgenabled":"false","bgtype":"image","color":"normal","backgroundimage":["file:\/\/cVIJwK3zKdx6ogEy"],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"content-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-doc-vita"},"columns":[{"blocks":[{"content":{"heading":"","level":"h2","dlist":[{"dt":"2004 - 2011","dd":"<p>Studium der Humanmedizin an der Friedrich-Schiller-Universit\u00e4t Jena<\/p>"},{"dt":"2012 - 2018","dd":"<p>Facharztausbildung an der Klinik f\u00fcr Hals-Nasen-Ohren Heil kunde des Helios Klinikums Erfurt<\/p>"},{"dt":"2018","dd":"<p>Nach Abschlusspr\u00fcfung Erlangen des Facharztes f\u00fcr Hals-Na sen-Ohren-Heilkunde<\/p>"},{"dt":"2018 -2021","dd":"<p>T\u00e4tigkeit als Fach\u00e4rztin an der Klinik f\u00fcr Hals-Nasen-OhrenHeilkunde am Helios Klinikum Erfurt und im Helios MVZ M\u00fchlhausen<\/p>"},{"dt":"2021","dd":"<p>Abschluss des Promotionsverfahrens und Erlangung des akademischen Grad des \u201edoctor medicinae\u201c mit der Dissertation: \u201eBehandlung von Patienten mit idiopathischem H\u00f6rsturz in Th\u00fcringen in den Jahren 2011 und 2012 - eine populationsbezogene Untersuchung\u201c Friedrich-Schiller-Universit\u00e4t Jena Abschlussnote: magna cum laude<\/p>"},{"dt":"seit 04\/2022","dd":"<p>Aus\u00fcbung der HNO Gemeinschaftspraxis -HNO am Angerzusammen mit Frau Dr. med. Marlen Fabris<\/p>"}],"orientation":"vertical","fontcolor":"normal","bgenabled":"false","bgtype":"image","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","aligncontent":"left","alignblock":"left","width":"full"},"id":"729ad9bf-f868-4ff1-b7e1-d0a5b7c68fdd","isHidden":false,"type":"openingtimes"}],"id":"9af19d36-0a8a-4bff-9769-20137c009413","width":"1\/1"}],"id":"a86fafe7-3bf3-4f50-99de-77aab7c8de62"},{"attrs":{"width":"small","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-doc-line"},"columns":[{"blocks":[],"id":"a02735fd-0401-4e70-8fae-45c0e2c1a38f","width":"1\/1"}],"id":"0ac174ba-dddc-45cf-b806-41c4e8a472ac"},{"attrs":{"width":"small","alignvertical":"align-items-center","padding":"padding-top, padding-bottom","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-doc-memberships"},"columns":[{"blocks":[{"content":{"heading":"","level":"h2","dlist":[{"dt":"<p>Mitgliedschaften<\/p>","dd":"<p>Mitglied in der deutschen Gesellschaft f\u00fcr Hals-, Nasen-, Oh renheilkunde und Kopf- und Halschirurgie<\/p><p>Mitglied im Deutschen Berufsverband der HNO \u00c4rzte e.V.<\/p><p>Mitglied in der Deutschen Gesellschaft f\u00fcr \u00e4sthetische Botulinum- und Fillertherapie e.V. (DGBT)<\/p>"}],"orientation":"vertical","fontcolor":"normal","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","aligncontent":"left","alignblock":"left","width":"full"},"id":"3c6d19a0-96c8-449c-9c90-dae6ce382eec","isHidden":false,"type":"openingtimes"}],"id":"673857ed-09b1-4748-9e38-c5ac40104dc3","width":"1\/1"}],"id":"ef0621e0-31cf-4953-a812-4b44025a4971"},{"attrs":{"width":"full","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":[],"id":"8a3a44e7-e4ee-4f3d-9567-330029774a56","isHidden":false,"type":"spacer"}],"id":"d57f341a-91cf-424b-a761-5d5f12d02b21","width":"1\/1"}],"id":"362036dd-2e07-47c9-a4a2-7d5296a6d28d"}]
+
+----
+
+Pagetitle: 
+
+----
+
+Keywords: 
+
+----
+
+Description: 
+
+----
+
+Cover: 
+
+----
+
+Excludefromsitemap: false
+
+----
+
+Date: 2023-02-15
+
+----
+
+Customcss: 
+
+----
+
+Codeheader: 
+
+----
+
+Codefooter: 
+
+----
+
+Uuid: 9xP2XOuhcKUfhDwi

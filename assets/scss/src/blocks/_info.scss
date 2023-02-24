@@ -1,0 +1,22 @@
+.alert {
+    border-radius: 2px;
+    border-left: 4px solid;
+    padding: var(--space-10);
+    width: 100%;
+
+    &.alert-default {
+        background: #ececee;
+    }
+    &.alert-negative {
+        background: var(--color-error-bg);
+        border-left-color: var(--color-error);
+    }
+    &.alert-positive {
+        background: var(--color-success-bg);
+        border-left-color: var(--color-success);
+    }
+    &.alert-warning {
+        background: var(--color-warning-bg);
+        border-left-color: var(--color-warning);
+    }
+}

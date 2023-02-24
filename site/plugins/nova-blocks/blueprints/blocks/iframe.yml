@@ -1,0 +1,10 @@
+icon: file-code
+name: iFrame
+fields:
+  url:
+    label: URL
+    placeholder: <iframe>Code</iframe>
+    type: textarea
+  line:
+    type: line
+  blocksettings: fields/blocksettings

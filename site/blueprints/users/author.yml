@@ -1,0 +1,17 @@
+title: Author
+description: 
+  en: Can create posts.
+  de: Kann Beiträge erstellen.
+
+extends: users/default
+
+permissions:
+  access:
+    settings: false
+  site:
+    update: false
+  user:
+    changeRole: false
+    create: false
+    delete: false
+  users: false

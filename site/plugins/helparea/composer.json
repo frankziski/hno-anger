@@ -1,0 +1,23 @@
+{
+    "name": "fz/helparea",
+    "description": "Add a Panel-Area with translatable Texts and Images to help new panel-users.",
+    "type": "kirby-plugin",
+    "version": "0.9.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phrank Ziski",
+            "email": "frank@ziski.de"
+        }
+    ],
+    "keywords": [
+      "kirby3",
+      "kirby3-cms",
+      "kirby3-plugin",
+      "kirby3-panel"
+    ],
+    "require": {
+      "php": ">=7.4.0",
+      "getkirby/composer-installer": "^1.1"
+    }
+}

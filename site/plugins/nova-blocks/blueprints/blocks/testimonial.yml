@@ -1,0 +1,31 @@
+name: Testimonial
+icon: account
+preview: testimonial
+fields:
+  quote:
+    label: 
+      en: Quote
+      de: Zitat
+    type: writer
+    marks: true
+    inline: false
+  image: fields/image
+  name:
+    type: writer
+    label: Name
+    inline: true
+    marks: false
+  jobPosition:
+    type: writer
+    label: Job Position
+    inline: true
+    marks: false
+    width: 1/2
+  company:
+    type: writer
+    inline: true
+    marks: false
+    width: 1/2
+  line:
+    type: line
+  blocksettings: fields/blocksettings

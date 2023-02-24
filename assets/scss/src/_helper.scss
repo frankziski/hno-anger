@@ -1,0 +1,79 @@
+.padding {
+    padding: var(--padding-vert) var(--padding-hor);
+}
+.no-padding {
+    padding: 0!important;
+
+    &.block-row {
+        --bs-gutter-x: 0;
+    }
+}
+.padding-top {
+    padding-top: var(--padding-vert);
+}
+.padding-bottom {
+    padding-bottom: var(--padding-vert);
+}
+.padding-left {
+    padding-left: var(--padding-vert);
+}
+.padding-right {
+    padding-right: var(--padding-vert);
+}
+
+.margin-bottom {
+    margin-bottom: var(--margin-blocks);
+}
+
+.full-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 100vh;
+    height: 100vh;
+    width: 100%;
+
+    @include xlarge {
+        @include viewportHeight;
+    }
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: var(--space-15) 0;
+    opacity: 0.2;
+    width: var(--space-15);
+}
+
+.muted {
+    opacity: 0.5 !important;
+}
+a.muted:hover {
+    opacity: 1 !important;
+}
+
+.material-icons-outlined {
+  font-family: 'Material Icons Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: var(--font-size);
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}

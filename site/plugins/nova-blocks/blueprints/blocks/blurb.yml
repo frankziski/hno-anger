@@ -1,0 +1,45 @@
+icon: check
+name: Blurb
+preview: blurb
+wysiwyg: true
+fields:
+  iconType:
+    default: image
+    empty: false
+    label: Icon
+    options:
+      image: 
+        en: Image
+        de: Bild
+      svg: SVG
+    type: select
+    width: 1/2
+  iconImage:
+    label: 
+      en: Image
+      de: Bild
+    max: 1
+    query: page.files.add(site.files).filterBy('template', 'image').sortBy('date', 'desc')
+    type: files
+    uploads: image
+    when:
+      iconType: image
+    width: 1/2
+  iconSvg:
+    label: Code
+    placeholder: <svg>...</svg>
+    type: text
+    when:
+      iconType: svg
+    width: 1/2
+  heading:
+    extends: fields/heading
+  text:
+    inline: true
+    label: Text
+    placeholder: Text...
+    type: writer
+  fontColor: fields/font-color
+  line:
+    type: line
+  blocksettings: fields/blocksettings

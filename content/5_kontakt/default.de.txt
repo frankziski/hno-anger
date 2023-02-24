@@ -1,0 +1,45 @@
+Title: Kontakt
+
+----
+
+Blocks: [{"attrs":{"width":"full","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"false","bgenabled":"true","bgtype":"color","color":"grey","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":[],"id":"c726cc22-ec05-432e-a992-dc465f5884f8","isHidden":false,"type":"spacer"},{"content":{"text":"<h1>Kontakt<\/h1>","fontcolor":"primary","aligncontent":"center","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"afcf8bcc-8425-4c63-bb49-1483546a8c8a","isHidden":false,"type":"text"}],"id":"6805cd40-41df-4906-934a-bb20872c7b17","width":"1\/1"}],"id":"e3ef2202-abc2-4bc7-bd2b-2f9b29170248"},{"attrs":{"width":"large","alignvertical":"align-items-start","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"true","bgtype":"color","color":"grey","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-contact"},"columns":[{"blocks":[{"content":{"text":"<ul><li><p><strong>Anger 7 | 99084 Erfurt<\/strong><\/p><\/li><li><p><a href=\"tel:03616438262\" title=\"0361 \/ 643 826 2\" rel=\"noopener noreferrer\"><strong>0361 \/ 643 826 2<\/strong><\/a><\/p><\/li><li><p><strong>0361 \/ 644 398 26<\/strong><\/p><\/li><li><p><strong><a href=\"mailto:info@hno-am-anger.de\" title=\"INFO@HNO-AM-ANGER.DE\">INFO@HNO-AM-ANGER.DE<\/a><\/strong><\/p><\/li><\/ul>","fontcolor":"normal","aligncontent":"left","alignblock":"center","width":"large","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"5af8a352-6c99-43d6-bac0-0308051183af","isHidden":false,"type":"text"}],"id":"e7bfeac6-9045-4a0b-8494-ca8c0a87c81f","width":"1\/3"},{"blocks":[{"content":{"url":"<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2512.1676095662037!2d11.033958716297862!3d50.9760924572299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a4734a66d2dce1%3A0x90860ee28ba0289b!2sHNO%20am%20Anger%20(Dr.%20med%20M.%20Fabris%20und%20Dr.%20med.%20A.%20Heuschkel)!5e0!3m2!1sde!2sde!4v1677232446219!5m2!1sde!2sde\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>","aligncontent":"center","alignblock":"center","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"90aeab2a-a8a8-4e99-b817-3ff74e3af854","isHidden":false,"type":"iframe"}],"id":"c97d79c2-fd29-4601-93a7-99466b63c86e","width":"2\/3"}],"id":"3696d4ac-2bff-4ad8-b683-98b5f2f0d4d4"},{"attrs":{"width":"full","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":{"text":"<h2>Kontaktieren Sie uns<\/h2>","fontcolor":"normal","aligncontent":"center","alignblock":"center","width":"medium","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"a9836fdf-a56d-430e-aac6-f8ebda6ded24","isHidden":false,"type":"text"},{"content":{"heading":"","fontsize":"hero","formbuilder":[{"fieldtype":"text-input","fieldrequired":"true","fieldname":"Name","fieldlabel":"Name","fieldcheckboxtext":"","fieldcheckboxactive":"false","fieldselectoptions":[],"fieldselectradio":"false","fieldnumbermin":null,"fieldnumbermax":null,"fieldtimemin":"","fieldtimemax":"","fieldparam":"","fieldtermstext":"","fieldtermslink":[],"fieldtermslinklabel":"","fielderror":""},{"fieldtype":"text-input","fieldrequired":"true","fieldname":"Telefonnummer","fieldlabel":"Telefonnummer","fieldcheckboxtext":"","fieldcheckboxactive":"false","fieldselectoptions":[],"fieldselectradio":"false","fieldnumbermin":null,"fieldnumbermax":null,"fieldtimemin":"","fieldtimemax":"","fieldparam":"","fieldtermstext":"","fieldtermslink":[],"fieldtermslinklabel":"","fielderror":""},{"fieldtype":"mail-input","fieldrequired":"true","fieldname":"email","fieldlabel":"E-Mail","fieldcheckboxtext":"","fieldcheckboxactive":"false","fieldselectoptions":[],"fieldselectradio":"false","fieldnumbermin":null,"fieldnumbermax":null,"fieldtimemin":"","fieldtimemax":"","fieldparam":"","fieldtermstext":"","fieldtermslink":[],"fieldtermslinklabel":"","fielderror":""},{"fieldtype":"text-area","fieldrequired":"false","fieldname":"Nachricht","fieldlabel":"Ihre Nachricht","fieldcheckboxtext":"","fieldcheckboxactive":"false","fieldselectoptions":[],"fieldselectradio":"false","fieldnumbermin":null,"fieldnumbermax":null,"fieldtimemin":"","fieldtimemax":"","fieldparam":"","fieldtermstext":"","fieldtermslink":[],"fieldtermslinklabel":"","fielderror":""}],"submittext":"Absenden","mailfrom":"admin@ziski.de","mailto":[{"mailtoaddress":"admin@ziski.de"}],"mailtosender":"false","mailtosendersubject":"","mailtosendertext":"","mailsubject":"Neue Anfrage \u00fcber das Kontaktforumlar von {{Name}}","successmessage":"Vielen Dank f\u00fcr Ihre Nachricht. Wir melden uns zeitnah bei Ihnen!","formid":"contact-form","aligncontent":"left","alignblock":"center","width":"medium","bgenabled":"true","bgtype":"color","color":"grey","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"74f7bb1b-02e1-46b9-8391-3a136db91db7","isHidden":false,"type":"form"}],"id":"b6f3afa1-f0be-4cee-8f40-6b8b4b511444","width":"1\/1"}],"id":"0aaf608b-26de-445b-9420-f43515a6d39f"}]
+
+----
+
+Pagetitle: 
+
+----
+
+Keywords: 
+
+----
+
+Description: 
+
+----
+
+Cover: 
+
+----
+
+Excludefromsitemap: false
+
+----
+
+Date: 2023-02-04
+
+----
+
+Customcss: 
+
+----
+
+Codeheader: 
+
+----
+
+Codefooter: 
+
+----
+
+Uuid: wpV6Y5GOXum3Ubav

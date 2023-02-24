@@ -1,0 +1,11 @@
+type: files
+label: Cover
+layout: cards
+cover:
+  cover: true
+  ratio: 16/9
+help: 1200x630 px
+multiple: false
+query: page.files.add(site.files).filterBy('template', 'image').sortBy('date', 'desc')
+translate: true
+uploads: image

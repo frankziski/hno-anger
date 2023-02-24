@@ -1,0 +1,74 @@
+label:
+    en: Settings
+    de: Einstellungen
+fields:
+  submitText:
+    label:
+      en: Text for submit Button
+      de: Text für Absenden-Button
+    type: text
+    default: Absenden
+    width: 1/2
+  mailFrom:
+    label:
+      en: Mail from
+      de: Mail-Absender
+    type: email
+    width: 1/2
+  mailTo:
+    label:
+      en: Mail to
+      de: Mail-Empfänger
+    type: structure
+    fields:
+      mailToAddress:
+        label: E-Mail
+        type: email
+  mailToSender:
+    type: toggle
+    label:
+      en: Copy to User?
+      de: Kopie an Nutzer?
+    text:
+      - 
+        en: dont send
+        de: nicht senden
+      - 
+        en: send
+        de: senden
+  mailToSenderSubject:
+    type: text
+    label:
+      en: subject for user-mail
+      de: Betreff für Nutzer-Mail
+    when:
+      mailToSender: true
+    width: 1/2
+    help:
+      en: use form fields with the field name, e.g. \{\{name\}\}
+      de: Kann Formularfelder über den Feld-Namen ausgeben. z.B. \{\{name\}\}
+  mailToSenderText:
+    type: writer
+    label:
+      en: text for user-mail
+      de: Text für Nutzer-Mail
+    when:
+      mailToSender: true
+    width: 1/2
+  mailSubject:
+    label:
+      en: Mail Subject
+      de: E-Mail Betreff
+    type: text
+    help:
+      en: use form fields with the field name, e.g. \{\{name\}\}
+      de: Kann Formularfelder über den Feld-Namen ausgeben. z.B. \{\{name\}\}
+  successMessage:
+    label:
+      en: Success Message
+      de: Erfolgsnachricht
+    help:
+      en: Is shown after the user successfully send the form
+      de: Wird nach erfolgreichem Absenden des Formulars angezeigt
+    type: writer
+    default: Vielen Dank für Ihre Nachricht. Wir melden uns zeitnah bei Ihnen!

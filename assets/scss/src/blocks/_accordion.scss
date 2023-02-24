@@ -1,0 +1,18 @@
+.accordion {
+    width: 100%;
+
+    .accordion-button {
+        background-color: var(--color-text);
+        color: var(--color-white);
+
+        &::after {
+            background-image: url(../img/chevron-down.svg);
+            background-color: var(--color-white);
+            border-radius: 5rem;
+        }
+
+        &:hover {
+            background-color: var(--color-primary);
+        }
+    }
+}

@@ -1,0 +1,27 @@
+title: Image
+
+accept: 
+  mime: image/*
+  type: image
+
+fields:
+  alt:
+    label: Alt
+    type: text
+    width: 1/2
+  caption:
+    inline: true
+    label: 
+      en: Caption
+      de: Bildunterschrift
+    type: writer
+    width: 1/2
+  date:
+    default: now
+    disabled: true
+    label: 
+      en: Uploaded on
+      de: Hochgeladen am
+    time: true
+    translate: true
+    type: date

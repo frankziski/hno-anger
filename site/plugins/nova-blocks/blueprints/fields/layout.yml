@@ -1,0 +1,5 @@
+type: group
+fields:
+  blocks:
+      extends: fields/blocks
+    settings: fields/layout-settings

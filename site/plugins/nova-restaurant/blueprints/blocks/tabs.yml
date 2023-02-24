@@ -1,0 +1,28 @@
+icon: box
+name: Tabs
+fields:
+  tabs:
+    type: blocks
+    label: Tabs
+    fieldsets:
+      - tabcontent
+  line:
+    type: line
+  tabsID:
+    label: ID
+    type: text
+    default: tabs1
+    help:
+      en: use individual labels when having multiple tabs on the same page
+      de: Nutze einzigartige IDS wenn auf einer Seite mehrere Tab-Elemente existieren
+  fontColor:
+    extends: fields/font-color
+  background:
+    extends: fields/background
+    width: 2/3
+  alignContent:
+    extends: fields/align-content
+  alignBlock:
+    extends: fields/align-block
+  width:
+    extends: fields/width

@@ -1,0 +1,24 @@
+label: 
+  en: Color
+  de: Farbe
+default: normal
+type: multi-toggle
+textLabels: true
+equalize: true # Disable equalization of item widths
+reset: false
+options: 
+  normal:
+    en: Default
+    de: Standard
+  primary:
+    en: Brown
+    de: Braun
+  secondary: Anthrazit
+  grey: Hellgrau
+  black:
+    en: Black
+    de: Schwarz
+  white: 
+    en: White
+    de: Weiß
+translate: false

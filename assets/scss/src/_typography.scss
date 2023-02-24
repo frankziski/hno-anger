@@ -1,0 +1,80 @@
+html {
+    font-size: var(--base-size);
+}
+
+body {
+    font-family: var(--font-stack);
+    font-size: var(--font-size);
+    line-height: 1.5;
+}
+
+h1 {
+    @include h1;
+}
+h2 {
+    @include h2;
+}
+h3 {
+    @include h3;
+}
+h4 {
+    @include h4;
+}
+h5 {
+    @include h5;
+}
+h6 {
+    @include h6;
+}
+
+p {
+    margin-bottom: var(--space-20);
+    font-size: var(--font-size);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+
+    &:hover {
+        color: var(--color-primary);
+    }
+}
+
+.text-wrapper,
+.paragraph {
+    >*:only-child {
+        margin: 0;
+    }
+
+    a {
+        color: var(--color-primary);
+        text-decoration: none;
+        border-bottom: 1px dotted currentColor;
+
+        &:hover {
+            color: var(--color-secondary);
+            border-bottom-style: solid;
+        }
+    }
+
+    ul,ol {
+        margin-bottom: var(--space-20);
+
+        li {
+            margin: 0 0 var(--space-10);
+
+            p {
+                margin-bottom: 0;
+            }
+
+            ul {
+                margin: var(--space-05) 0 var(--space-10);
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+icon: email
+name: 
+  en: form
+  de: Formular
+preview: form
+tabs:
+  content:
+    extends: fields/form-fields
+  additionalSettings:
+    extends: fields/form-settings
+    fields:  
+      line:
+        type: line
+      formID:
+        label: ID
+        type: text
+        default: contact-form
+      blocksettings: fields/blocksettings

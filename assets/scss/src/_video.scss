@@ -1,0 +1,55 @@
+.video-wrapper {
+    .video {            
+        width: 100%;        
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .video-overlay {
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        position: absolute;
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: .75;
+        transition: opacity .4s;       
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        &:hover {
+            opacity: 1;
+        }
+
+        &.running {
+            opacity: 0;
+
+            @media (-moz-touch-enabled: 1), (pointer:coarse) {
+                .play-button {
+                    -webkit-animation: fade-out 0.4s ease-out 0.2s both;
+                            animation: fade-out 0.4s ease-out 0.2s both;
+                }
+            }
+        }
+    }
+
+    .video[controls]+.video-overlay.running  {
+        pointer-events: none;
+
+        @include xlarge {
+            &.started {
+                display: none;
+                visibility: hidden;
+                pointer-events: none;
+            }
+        }
+    }
+}

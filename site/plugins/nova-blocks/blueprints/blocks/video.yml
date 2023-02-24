@@ -1,0 +1,15 @@
+icon: video
+name: Video
+preview: video
+fields:
+  media:
+    label: 
+      en: File
+      de: Datei
+    max: 1
+    query: page.files.add(site.files).filterBy('template', 'video').sortBy('date', 'desc')
+    type: files
+    uploads: video
+  line:
+    type: line
+  blocksettings: fields/blocksettings

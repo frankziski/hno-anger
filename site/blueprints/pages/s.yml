@@ -1,0 +1,13 @@
+title: Search
+image:
+  back: gray-800
+  icon: search
+
+extends: pages/default
+
+options:
+  changeSlug: false
+  changeStatus: false
+  changeTitle: false
+  delete: false
+  duplicate: false

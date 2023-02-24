@@ -1,0 +1,20 @@
+.block-type-blurb {
+    height: 100%;
+}
+
+.blurb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-20) var(--space-10);
+    height: 100%;
+
+    svg {
+        margin-bottom: var(--space-20);
+    }
+
+    h3 {
+        margin-top: var(--space-10);
+    }
+}

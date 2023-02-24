@@ -1,0 +1,110 @@
+html.is-flickity-fullscreen {
+    .site-footer {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+.site-footer {
+  .padding {
+    padding: var(--space-40) var(--padding-hor);
+  }
+
+  
+  @include medium {
+    .text-wrapper {
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+
+  @include mobileSm {
+    .block-col {
+      margin-bottom: var(--space-30);
+    }
+  }
+    .icon {
+        margin-bottom: var(--space-10);
+
+        svg {
+            max-height: 80px;
+        }
+    }
+
+    @include medium-up {
+      .block-type-image {
+        img {
+          max-width: 200px;
+        }
+      }
+    }
+
+    .block-type-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        a {
+            color: var(--color-white);
+            margin: var(--space-05) var(--space-10);
+
+            &:hover {
+                color: var(--color-grey);
+                text-decoration: underline;
+            }
+        }
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        p {
+          display: flex;
+          gap: var(--space-10);
+          justify-content: flex-start;
+          font-weight: 700;
+          text-align: left;
+
+          a,
+          a:link,
+          a:visited  {
+            display: flex;
+            gap: var(--space-10);
+            justify-content: flex-start;
+            align-items: center;
+            border-bottom: none;
+            color: var(--color-white);
+
+            &:hover, &:focus {
+              background-color: rgba(255,255,255,0.2);
+            }
+          }
+        }
+      }
+
+      li:nth-child(2) {
+        p::before {
+          font-family: 'Material Icons Outlined';
+          content: '\e8ad';
+          font-size: var(--font-size);
+        }
+      }
+
+      a[href*="tel:"] {
+        &::before {
+          @extend .material-icons-outlined;
+          content: 'phone';
+        }
+      }
+
+      a[href*="mailto:"] {
+        &::before {
+          @extend .material-icons-outlined;
+          content: 'mail';
+        }
+      }
+    }
+}

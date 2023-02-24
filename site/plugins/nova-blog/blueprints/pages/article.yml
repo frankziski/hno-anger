@@ -1,0 +1,96 @@
+title: 
+  en: Article
+  de: Artikel
+image:
+  back: gray-800
+  icon: draft
+num: '{{ page.published.toDate("Ymd") }}'
+status:
+  draft:
+    label: 
+      en: Draft
+      de: Entwurf
+    text: 
+      en: The article is in draft mode and only visible for logged in editors.
+      de: Entwurfsmodus. Dieser Artikel ist nur für eingeloggte Editoren sichtbar.
+  unlisted:
+    label: 
+      en: Unlisted
+      de: Ungelistet
+    text: 
+      en: The article is public and accessible via URL.
+      de: Der Artikel ist veröffentlicht und über seine URL erreichbar.
+  listed:
+    label: 
+      en: Listed
+      de: Gelistet
+    text: 
+      en: The page is public and added to the main menu.
+      de: Der Artikel ist veröffentlich und im Blog sichtbar
+
+columns:
+  - width: 2/3
+    fields:
+      intro:
+        type: writer
+        label: 
+          en: Intro
+          de: Einleitung
+        help:
+          en: Intro Text, also used for teaser
+          de: Einführungstext, wird auch für Teaser genutzt
+      blocks:
+        extends: fields/blocks-article
+  - width: 1/3
+    sections:
+      content:
+        type: fields
+        fields:
+          cover:
+            label: Cover
+            type: files
+            cover: true
+            ratio: 16/9
+            layout: cards
+            multiple: false
+            help: 1600x900 px
+            translate: true
+            uploads: image
+          published:
+            type: date
+            default: now
+            display: DD.MM.YYYY
+            label: 
+              en: Published-Date
+              de: Veröffentlichungsdatum
+            translate: true
+          author:
+            type: users
+            label: 
+              en: Author
+              en: Autor
+            multiple: false
+            translate: true
+          tags:
+            label: Tags
+            icon: tag
+            type: multiselect
+            options: query
+            query: site.find('blog').blogtags.split
+          related:
+            label: 
+              en: Related articles
+              de: Verwandte Beiträge
+            type: pages
+            query: page.siblings(false)
+            max: 3
+          line:
+            type: line
+
+      files:
+        headline: 
+          en: Files
+          de: Dateien
+        type: files
+        layout: cardlets
+        info: "{{ file.alt }} | {{ file.dimensions }}"

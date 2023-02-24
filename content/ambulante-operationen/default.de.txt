@@ -1,0 +1,45 @@
+Title: Ambulante Operationen
+
+----
+
+Blocks: [{"attrs":{"width":"full","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-page-header"},"columns":[{"blocks":[{"content":[],"id":"0ece3d33-6400-4b9c-87f6-cdd62049d382","isHidden":false,"type":"spacer"},{"content":{"text":"<h1>Ambulante Operationen<\/h1>","fontcolor":"primary","aligncontent":"center","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"dcf6c0d2-87fd-4d99-94f0-b4b46c9df2a3","isHidden":false,"type":"text"},{"content":[],"id":"4701b5d0-38e4-4ea3-9c25-04f2e0076ecb","isHidden":false,"type":"spacer"}],"id":"11d1f8db-9320-4120-a68d-db216e2178f4","width":"1\/1"}],"id":"b71408ad-2129-41f3-88ae-30fb788d32de"},{"attrs":{"width":"large","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":{"text":"<p>In unseren neuen Praxisr\u00e4umen k\u00f6nnen wir Ihnen verschiedene ambulante Eingriffe in lokaler Bet\u00e4ubung anbieten. Dazu z\u00e4hlen beispielsweise: <\/p><ul><li><p>Entfernung st\u00f6render oder verd\u00e4chtiger Hautver\u00e4nderungen<\/p><\/li><li><p>Ver\u00f6dung der Nasenmuscheln <\/p><\/li><li><p>verschiedene kosmetische Eingriffe wie der Verschluss eingerissener Ohrl\u00e4ppchen und sog. \u201eTunnel\u201c <\/p><\/li><li><p>Durchtrennung von Lippen- oder Zungenb\u00e4ndchen.<\/p><\/li><\/ul>","fontcolor":"normal","aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"812106a6-d480-45ff-be34-74c68842cde2","isHidden":false,"type":"text"}],"id":"ca664818-48b6-459a-9e27-fb8637ca7d85","width":"1\/1"}],"id":"f44cd23b-3612-417d-b0a2-fabf94ec91d6"},{"attrs":{"width":"large","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"true","bgtype":"color","color":"grey","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":{"text":"<p>F\u00fcr Eingriffe in Narkose arbeiten wir mit dem Team des ambulanten <strong>OP-Zentrums (AOZ) in der Riethstra\u00dfe 1<\/strong> zusammen. Hier f\u00fchren wir folgende operative Eingriffe durch:<\/p><ul><li><p>Adenotomie (Entfernung der sog. Polypen bei Kindern)<\/p><\/li><li><p>Lasertonsillotomie,<\/p><\/li><li><p>Paukendrainage-Anlage<\/p><\/li><li><p>Korrektur der Nasenscheidewand<\/p><\/li><li><p>Verkleinerung\/Ver\u00f6dung der Nasenmuscheln<\/p><\/li><li><p>Korrektur von Ohrmuschelfehlstellungen<\/p><\/li><\/ul>","fontcolor":"normal","aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"3880fcf7-f48d-4156-992e-8c373d1245bd","isHidden":false,"type":"text"}],"id":"752d868d-fb71-49da-a21f-825898de5562","width":"1\/1"}],"id":"d6229d65-95bd-4b1a-98ef-1c48a400701a"},{"attrs":{"width":"large","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":[],"id":"4e7ddc22-1368-484d-ab3e-3f792a5157b9","isHidden":false,"type":"spacer"},{"content":{"text":"<p>Bei Fragen zu unserem operativen Leistungsspektrum sprechen Sie uns gern an!<\/p><p><\/p>","fontcolor":"normal","aligncontent":"center","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"8cae470e-2d1b-4f09-819b-2dc5c5953569","isHidden":false,"type":"text"},{"content":{"linkfield":[{"link":"page","linktitle":"Kontakt","linkpage":["page:\/\/wpV6Y5GOXum3Ubav"],"linkurl":"","linkmail":"","linkphone":"","linktarget":"false","linkanchor":"","linkparam":"","linkfile":[],"linkmodaltitle":"","linkmodal":"","style":"primary"}],"aligncontent":"center","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"e8c3ff16-7e0f-44c2-96af-f6d9149a843c","isHidden":false,"type":"button"},{"content":[],"id":"db553bbe-10a0-4cd1-be50-4cf2923187ac","isHidden":false,"type":"spacer"}],"id":"f6d87d20-da8d-4fae-8f06-25da5766bea1","width":"1\/1"}],"id":"9e5f9b4b-f65b-4851-812d-4ca635dcdb16"}]
+
+----
+
+Pagetitle: 
+
+----
+
+Keywords: 
+
+----
+
+Description: 
+
+----
+
+Cover: 
+
+----
+
+Excludefromsitemap: false
+
+----
+
+Date: 2023-02-15
+
+----
+
+Customcss: 
+
+----
+
+Codeheader: 
+
+----
+
+Codefooter: 
+
+----
+
+Uuid: Z34XVYgOU5XnCHqO

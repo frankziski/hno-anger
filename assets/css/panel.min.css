@@ -1,0 +1,51 @@
+div[data-language="en"] .k-languages-dropdown {
+  background: #de935f;
+}
+
+.k-layout {
+  box-shadow: 1px 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.k-layout-columns.k-grid {
+  grid-gap: 8px;
+}
+
+.k-layout:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.k-structure-field .k-structure-form-buttons {
+  background: #de935f;
+  border-top: none;
+}
+.k-structure-field .k-structure-field .k-structure-form-buttons {
+  background: #ccc;
+}
+
+.k-panel .k-form-buttons {
+  z-index: 999;
+}
+
+.k-drawer-body {
+  padding-bottom: 5rem;
+}
+
+.k-writer .ProseMirror h1, 
+.k-writer .ProseMirror h2, 
+.k-writer .ProseMirror h3, 
+.k-writer .ProseMirror h4, 
+.k-writer .ProseMirror h5, 
+.k-writer .ProseMirror h6, 
+.k-writer .ProseMirror ol, 
+.k-writer .ProseMirror p, 
+.k-writer .ProseMirror ul {
+  margin-bottom: 1rem;
+}
+
+.k-block video {
+  width: 100%;
+}
+
+.k-list-items .k-list-item:not(:last-child) {
+  margin-bottom: 0.5rem;
+}

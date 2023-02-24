@@ -1,0 +1,148 @@
+// Media Queries
+// Screen Sizes
+$mobileXs-screen: 379px !default;
+$mobileSm-screen: 575px !default;
+$medium-screen: 767px !default;
+$large-screen: 991px !default;
+$xlarge-screen: 1199px !default;
+$xxlarge-screen: 1399px !default;
+
+$headerBreakpoint: $large-screen;
+
+// Extra Small Devices 379px
+@mixin mobileXs() {
+    @media only screen and (max-width: #{$mobileXs-screen}) {
+        @content;
+    }   
+}
+
+// Small Devices 576px
+@mixin mobileSm()  {
+    @media only screen and (max-width: #{$mobileSm-screen}) {
+        @content;
+    }
+}
+    
+// Medium Devices 768px
+@mixin medium() {
+    @media only screen and (max-width:#{$medium-screen}) {
+        @content;
+    }
+}
+@mixin medium-up() {
+    @media only screen and (min-width:#{$medium-screen+1}) {
+        @content;
+    }
+}
+
+// Large Devices (More than 992px)
+@mixin large() {
+    @media only screen and (max-width: #{$large-screen}) {
+        @content; 
+    }
+}
+@mixin large-up() {
+    @media only screen and (min-width: #{$large-screen+1}) {
+        @content; 
+    }
+}
+// Extra Large Devices (More than 1200px)
+@mixin xlarge() {
+    @media only screen and (max-width: #{$xlarge-screen}) {
+        @content; 
+    }
+}
+@mixin xlarge-up() {
+    @media only screen and (min-width: #{$xlarge-screen+1}) {
+        @content; 
+    }
+}
+// Extra Extra Large Devices (More than 1400px)
+@mixin xxlarge() {
+    @media only screen and (max-width: #{$xxlarge-screen}) {
+        @content; 
+    }
+}
+@mixin xxlarge-up() {
+    @media only screen and (min-width: #{$xxlarge-screen+1}) {
+        @content; 
+    }
+}
+
+// Shadow
+
+@mixin box-shadow {
+    box-shadow: 0 .5rem 1rem rgba(#000, .15);
+}
+
+@mixin box-shadow-glow {
+    box-shadow: 0 .5rem 1rem var(--color-glow);
+}
+
+@mixin box-shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(#000, .175);
+}
+
+// Headlines
+
+@mixin h1 {
+    font-family: var(--font-stack-hl-bold);
+    font-size: var(--font-size-h1);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+@mixin h2 {
+    font-family: var(--font-stack-hl-bold);
+    font-size: var(--font-size-h2);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+@mixin h3 {
+    font-family: var(--font-stack-hl-bold);
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+@mixin h4{
+    font-family: var(--font-stack-hl-bold);
+    font-size: var(--font-size-h4);
+    font-weight: 700;
+}
+@mixin h5 {
+    font-family: var(--font-stack-hl-bold);
+    font-size: var(--font-size-h5);
+    font-weight: 700;
+}
+@mixin h6 {
+    font-family: var(--font-stack-hl-bold);
+    font-size: var(--font-size-h6);
+    font-weight: 400;
+}
+
+//helper
+@mixin hidden {
+    position: absolute!important;
+    width: 1px!important;
+    height: 1px!important;
+    padding: 0!important;
+    margin: -1px!important;
+    overflow: hidden!important;
+    clip: rect(0,0,0,0)!important;
+    white-space: nowrap!important;
+    border: 0!important;
+}
+
+@mixin transition($property: all) {
+    transition-property: $property;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@mixin no-gutter {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+@mixin viewportHeight {
+    height: calc(var(--vh, 1vh) * 100); 
+}

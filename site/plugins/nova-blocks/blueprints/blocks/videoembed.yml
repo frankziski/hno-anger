@@ -1,0 +1,13 @@
+icon: youtube
+name: 
+  en: Video Embed
+  de: Video einbetten
+preview: youtube
+fields:
+  url:
+    label: URL
+    placeholder: https://youtube.com/
+    type: url
+  line:
+    type: line
+  blocksettings: fields/blocksettings

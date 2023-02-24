@@ -1,0 +1,35 @@
+type: blocks
+label:
+  en: Sidebar-Content
+  de: Sidebar-Inhalte
+fieldsets: 
+  text:
+    label: Text
+    type: group
+    fieldsets:
+      text: blocks/text
+      button: blocks/button
+      markdown: blocks/markdown
+      info: blocks/info
+      quote: blocks/quote
+      table: blocks/table
+  media:
+    label: Media
+    type: group
+    fieldsets:
+      image: blocks/image
+      video: blocks/video
+  misc:
+    label: Misc
+    type: group
+    fieldsets:
+      spacer: blocks/spacer
+      tagcloud: blocks/tagcloud
+  embeds:
+    label: Embeds
+    type: group
+    fieldsets:
+      posts: blocks/posts
+      form: blocks/form
+      videoembed: blocks/videoembed
+      iframe: blocks/iframe

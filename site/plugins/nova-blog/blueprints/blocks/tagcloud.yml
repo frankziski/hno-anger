@@ -1,0 +1,9 @@
+icon: tag
+name: Tag-Cloud
+fields:
+  info:
+    label: Info
+    text: 
+      en: Shows all Tags from the blog-page in a tag-cloud
+      de: Zeigt alle Tags der Blog-Seite in einer Tag-Cloud an
+    type: info

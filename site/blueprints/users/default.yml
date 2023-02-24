@@ -1,0 +1,10 @@
+title: User
+
+fields:
+  description:
+    type: writer
+    label: 
+      en: Description
+      de: Beschreibung
+    inline: true
+    placeholder: Text...

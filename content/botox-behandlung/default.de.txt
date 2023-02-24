@@ -1,0 +1,45 @@
+Title: Botox Behandlung
+
+----
+
+Blocks: [{"attrs":{"width":"full","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":[],"id":"f30f43ee-d867-4dad-95b8-d4c3ae1a20f1","isHidden":false,"type":"spacer"},{"content":{"text":"<h1>Details zur Behandlung mit Botox<\/h1>","fontcolor":"primary","aligncontent":"center","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"0da40119-1f27-458c-af49-7ae6bbbba2a2","isHidden":false,"type":"text"},{"content":[],"id":"b7258808-7907-4835-89b1-ccef0dcfb935","isHidden":false,"type":"spacer"}],"id":"fbe7c276-af3b-484c-a77e-bfd088d9271f","width":"1\/1"}],"id":"087656ad-3e3a-4c9a-87dc-1f84da41339d"},{"attrs":{"width":"large","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":{"text":"<p>Anwendung von <u>Botulinumtoxin<\/u> zur Behandlung mimischer Falten des Gesichtes.<\/p><p>Die Therapie mit Botulinum (umgangssprachlich als Botox bekannt) ist seit vielen Jahren erprobt und hat sich als eine sichere Therapie zur Behandlung von mimischen Falten im Gesicht etabliert. Insbesondere die Behandlung der Zornesfalte, der Kr\u00e4henf\u00fc\u00dfe und der queren Stirnfalten sind mit dieser Therapie sicher und zuverl\u00e4ssig m\u00f6glich. Aber auch im unteren Gesichtsdrittel und am Hals kann eine Therapie mit Botulinum zum Einsatz kommen. Das Medikament wird mit kleinen Einstichen zielgenau appliziert. Bei Angst vor Spritzen oder den geringen Schmerzen im Zuge der Behandlung kann gern ein Schmerzgel aufgetragen werden.<\/p><p>Je nach Behandlungsaufwand und Materialeinsatz ist mit Kosten ab 280\u20ac zu rechnen.<\/p>","fontcolor":"normal","aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"86b234d9-3c54-470d-9f4f-9a5374d192d2","isHidden":false,"type":"text"}],"id":"e9333860-aed4-4fba-8718-a3b81f953b17","width":"1\/1"}],"id":"cb48c695-f867-4f50-8ed3-e3a9f68894b8"},{"attrs":{"width":"large","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-get-in-touch"},"columns":[{"blocks":[{"content":[],"id":"b6ba8c0b-74a0-4ec4-91f4-a599beb748c4","isHidden":false,"type":"spacer"},{"content":{"text":"<p>Sie interessieren sich f\u00fcr eine Botulinumtherapie? Vereinbaren Sie gern einen Beratungstermin!<\/p>","fontcolor":"normal","aligncontent":"center","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"5ebad93e-7cd2-42d1-9d28-d4636a9bd00c","isHidden":false,"type":"text"},{"content":{"linkfield":[{"link":"page","linktitle":"Kontakt","linkpage":[],"linkurl":"","linkmail":"","linkphone":"","linktarget":"false","linkanchor":"","linkparam":"","linkfile":[],"linkmodaltitle":"","linkmodal":"","style":"primary"}],"aligncontent":"center","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"1a54b9ca-9aa6-4d1e-beee-22ea484ebdbc","isHidden":false,"type":"button"},{"content":[],"id":"517ed3a7-006b-443e-9fc8-7a17e75e109f","isHidden":false,"type":"spacer"}],"id":"4cf44ced-eefe-47d8-b17c-e64300abf8fd","width":"1\/1"}],"id":"8817f959-bb2b-4751-a7df-1bf65464da09"}]
+
+----
+
+Pagetitle: 
+
+----
+
+Keywords: 
+
+----
+
+Description: 
+
+----
+
+Cover: 
+
+----
+
+Excludefromsitemap: false
+
+----
+
+Date: 2023-02-23
+
+----
+
+Customcss: 
+
+----
+
+Codeheader: 
+
+----
+
+Codefooter: 
+
+----
+
+Uuid: X6Gwkea9AISzz2cX

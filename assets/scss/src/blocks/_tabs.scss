@@ -1,0 +1,26 @@
+.block-type-tabs {
+    .list-group {
+        width: 100%;
+    }
+
+    .list-group-item {
+        background: var(--color-light);
+        color: var(--color-text);
+        border: 0;
+        
+        &.active {
+            background: var(--color-primary);
+            color: var(--color-white);
+        };
+
+        &:hover {
+            background: var(--color-success-bg);
+            color: var(--color-primary);
+        }
+    }
+
+    .tab-content {
+        width: 100%;
+        padding-top: var(--space-30);
+    }
+}

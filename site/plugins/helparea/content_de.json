@@ -1,0 +1,506 @@
+{
+    "section1": {
+        "title": "Panel",
+        "level": "h2",
+        "text": "Grundsätzlich ist das Panel in 4 Bereiche aufgeteilt",
+        "image": "panel-start.jpg",
+        "id": "section1",
+        "setAnchor": true
+    },
+    "section1a": {
+        "title": "Hauptmenü (1)",
+        "level": "h4",
+        "text": "Beinhaltet Links zu Site, Sprachen, Accounts, System, Hilfebereich, Account und Abmelden",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section1b": {
+        "title": "Breadcrumb (2)",
+        "level": "h4",
+        "text": "Zeigt den Pfad zur aktuell bearbeiteten Seite. Dient als Nvigation für Unterseiten",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section1c": {
+        "title": "Suche (3)",
+        "level": "h4",
+        "text": "Öffnet ein Popup zur Suche nach Seiten, Dateien und User-Accounts",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section1d": {
+        "title": "Inhalt (4)",
+        "level": "h4",
+        "text": "Hier finden sie alle Seiten die zur Website gehören sowie die Mediathek und Einstellungen zu Header, Footer und allgemeinen Funktionen",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section2": {
+        "title": "Seiten anlegen",
+        "level": "h2",
+        "text": "Klicken sie auf den <b>Hinzufügen-Button</b> im Bereich Entwürfe. Im darauffolgenden Dialog geben sie den Seitentitel ein. Der URL-Anhang wird dabei automatisch ergänzt. Unter Vorlage kann das gewünschte Seitentemplate ausgewählt werden. Ein Klick auf <b>Entwurf anlegen</b> erstellt die neue Seite im Entwurfsmodus",
+        "image": "add-page.jpg",
+        "id": "section2",
+        "setAnchor": true
+    },
+    "section2a": {
+        "title": "Status einer Seite",
+        "level": "h3",
+        "text": "Jede Seite kann folgenden Status haben: <br><br><b>Entwurf (rote Kontur)</b><br><br><b>Ungelistet (blauer Halbkreis)</b> <br><br><b>Gelistet (grüner Kreis)</b>.<br><br>Zum Ändern des Status klicken sie in der Seitenübersicht oder im Bearbeitungsmodus einer Seite auf den entsprechenden Kreis. Es öffnet sich folgender Dialog:",
+        "image": "site-status.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section2a1": {
+        "title": "Unterseiten",
+        "level": "h3",
+        "text": "Um eine Unterseite zur aktuellen Seite anzulegen wechseln sie in den Tab <b>Unterseiten</b> der aktuell bearbeiteten Seite. Dort können Sie wie oben beschrieben Unterseiten anlegen und veröffentlichen.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section2a2": {
+        "title": "Erweiterte Seiteneinstellungen",
+        "level": "h3",
+        "text": "Im Tag <b>Erweitert</b> können Sie wichtige SEO-Einstellungen der Seite anpassen. Eine treffende Beschreibung sowie einige Schlagworte helfen dabei, dass ihre Website bei Google und Co besser gelistet wird. <b>Aus Sitemap entfernen</b> sorgt dafür, dass die entsprechende Seite nicht von Suchmaschinen gelistet wird. Das Cover-Bild wird hauptsächlich bei Verlinkungen auf sozialen Medien genutzt.",
+        "image": "advanced-settings.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section2b": {
+        "title": "Layout anlegen",
+        "level": "h3",
+        "text": "Nachdem eine Seite erstellt wurde, gelangt man in den Bearbeitungsmodus der Seite. Um die Seite nun mit Inhalt zu füllen, klicken sie auf den markierten Bereich mit dem Titel <b>Keine Layouts</b>.",
+        "image": "page-add-layout.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section3": {
+        "title": "Layouts",
+        "level": "h2",
+        "text": "Stellen sie sich Layouts in Kirby grob wie eine Tabelle vor. Jedes Layout ist eine neue Zeile. Jede Zeile kann aus einer mehreren Spalten bestehen.",
+        "image": "",
+        "id": "section3",
+        "setAnchor": true
+    },
+    "section3a": {
+        "title": "Layouts anlegen",
+        "level": "h3",
+        "text": "Um ein neues Layout zu erstellen gibt es drei Möglichkeiten. Die erste ist bereits im Bereich <b>Seiten anlegen</b> beschrieben. Ist schon ein Layout vorhanden, klicken sie entweder auf das Plus unterhalb des letzten Layouts, oder auf den <b>v - Button</b> am rechten Rand eines beliebigen Layouts. Im Dropdown wählen sie dann, ob sie das neue Layout vor oder nach dem gewählten Anfügen wollen.",
+        "image": "create-layout.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section3b": {
+        "title": "Layout auswählen",
+        "level": "h3",
+        "text": "Hat man ein neues Layout angelegt, öffnet sich die Auswahl für die Anzahl der Spalten. In den meisten Fällen klicken sie hier nur auf das erste Kästchen um ein 1-spaltiges Layout zu erzeugen. Die Anzahl der Spalten kann später leider nicht angepasst werden. Zum Ändern der Spaltenanzahl müssen sie immer ein neues Layout anlegen und die Blöcke dann entsprechend verschieben. Dazu später mehr.",
+        "image": "select-layout.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section3c": {
+        "title": "Layouteinstellungen",
+        "level": "h3",
+        "text": "Zum Anpassen von Hintergrundfarben, Größen und Abständen öffnen sie die Layout-Einstellungen über folgendes Icon am rechten Rand des jeweiligen Layouts. Die verfügbaren Einstellmöglichkeiten können je nach Website variieren. Die wichigsten werden nachfolgend kurz erklärt.",
+        "image": "layout-settings.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section3d": {
+        "title": "Breite",
+        "level": "h4",
+        "text": "Gibt die maximale Breite des Layouts (der Zeile) an. Diese Einstellung wirkt sich nur auf große Bildschirme aus. Alle Blöcke innerhalb des Laoyuts orientieren sich dann an dieser Breite.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section3e": {
+        "title": "Vertikale Ausrichtung",
+        "level": "h4",
+        "text": "Bei mehreren Spalten kann so die Orientierung der Blöcke eingestellt werden. <b>Ausfüllen</b> gibt an, dass alle Blöcke dieselbe Höhe haben.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section3f": {
+        "title": "Abstand",
+        "level": "h4",
+        "text": "Setzt den Abstand des Layouts zum Bildschirmrand bzw. den darüber- und darunterliegenden Layouts.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section3g": {
+        "title": "Mobile - Spalten umkehren",
+        "level": "h4",
+        "text": "Bei abwechselnden Spalten kann es passieren, das die Anordnung der Blöcke auf Mobilgeräten umgekehrt werden muss.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section3h": {
+        "title": "Sichtbarkeit",
+        "level": "h4",
+        "text": "Layouts die auf Unsichtbar eingestellt sind, werden auf der Website nicht mehr ausgegeben. Praktisch wenn man gewisse Inhalte nur zu bestimmten Zeiten benötigt.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section3i": {
+        "title": "Hintergrund",
+        "level": "h4",
+        "text": "Aktiviert Hintergrundfarbe oder -bild für das Layout. Die Hintergrundgröße gibt das Verhalten an: Komplette Bildschirmhöhe: Das Layout füllt immer die gesamte zur Verfügung stehende Bildschirmhöhe aus. | Volle Breite: Der Hintergrund ist immer über die gesamte Breite des Bildschirms sichtbar, auch wenn die Inhalte nur z.b. 50% Breite haben. | Inhaltsbreite: Begrenzt den Hintergrund auf die bei Breite gewählte Einstellung. | Getrennte Spalten: Wendet den Hintergrund auf die einzelnen Spalten des Layouts an um diese optisch voneinander zu trennen (nur bei Hintergrundfarbe möglich)",
+        "image": "settings-background.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section3j": {
+        "title": "Blöcke hinzufügen",
+        "level": "h4",
+        "text": "Um das Layout nun mit Inhalt zu füllen, klicken sie einfach in den weißen Bereich des Layouts. Sind im Layout bereits Blöcke enthalten, können neue Blöcke darüber oder darunter angelegt werden. Klicken sie dazu einen Block im Layout an. Dieser wird blau umrandet. Es erscheint ein Menü am rechten Rand des Blocks. Klicken sie nun auf den [+]-Button oder alternativ den [...]-Button und wählen sie <b>Davor einfügen</b> oder <b>Danach einfügen</b>.",
+        "image": "layout-add-block.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section3k": {
+        "title": "",
+        "level": "h4",
+        "text": "Es öffnet sich die Auswahl der verfügbaren Block-Typen. Die Auswahl in ihrer Website kann von der im Hilfebereich abweichen.",
+        "image": "select-block.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4": {
+        "title": "Blöcke",
+        "level": "h2",
+        "text": "Mithilfe von Blöcken wird sämtlicher Inhalt der Website verwaltet. Wie Blöcke hinzugefügt werden, erfahren sie im vorherigen Kapitel <b>Layouts</b>. Nachfolgend wird der grundlegende Umgang mit Blöcken erklärt.",
+        "image": "",
+        "id": "section4",
+        "setAnchor": true
+    },
+    "section4a": {
+        "title": "Inhalt bearbeiten",
+        "level": "h3",
+        "text": "Fast alle Texte in einem Block lassen sich direkt in der Layoutansicht bearbeiten. Wenn sie einen Text hier markieren, erscheint eine Auswahl verfügbarer Formatierungsoptionen. Detaillierte Infos zur Textgestaltung folgen im Kapitel <b>Text formatieren</b>. Bilder, Einstellmöglichkeiten und Optionen lassen sich in der Detailansicht des Blocks bearbeiten. Klicken sie dazu auf das Stift-Icon am rechten Rand, oder machen sie einen Doppelklick auf einen beliebigen Bereich des gerade aktiven Blocks.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4b": {
+        "title": "Detailansicht des Blocks",
+        "level": "h3",
+        "text": "Nach Klick auf den Stift (oder Doppelklick) öffnet sich die Detailansicht des Blocks. Hier können alle verfügbaren Einstellungen und Inhalte bearbeitet werden. Um die Detailansicht zu verlassen, klicken sie auf das Häkchen oben rechts oder einfach irgendwo in den Bereich links der Detailansicht.",
+        "image": "block-detail.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4c": {
+        "title": "Block-Einstellungen",
+        "level": "h3",
+        "text": "Die nachfolgend erläuterten Einstellmöglichkeiten sind für fast jeden Blocktyp verfügbar. Darüber hinaus können Blöcke noch individuelle Optionen besitzen, die das Verhalten des Blocks steuern. Einige Einstellungen wie die Inhalt-Ausrichtung sind direkt im Panel sichtbar. Andere wie zum Beispiel Hintergrundfarbe oder Breite werde erst auf der Website selbst sichtbar.",
+        "image": "block-settings.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4d": {
+        "title": "Inhalt-Ausrichtung",
+        "level": "h4",
+        "text": "Richtet Text und Bilder innerhalb eines Blockes linksbündig, zentriert oder rechtsbündig aus. Wollen sie beispielsweise eine zentrierte Headline und darunter einen linksbündigen Text haben, müssen sie dafür 2 Blöcke mit der entsprechenden Einstellung anlegen.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4e": {
+        "title": "Block-Ausrichtung",
+        "level": "h4",
+        "text": "Richtet den Block innerhalb der Spalte des Layouts links, zentriert oder rechts aus. Dies ist oft nur dann sichtbar, wenn der Block selbst nicht über die gesamte Bildschirmbreite eingestellt ist.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4f": {
+        "title": "Breite",
+        "level": "h4",
+        "text": "Gibt die maximale Breite des Blockes innerhalb der Spalte des Layouts an. Diese Einstellung wirkt sich nur auf große Bildschirme aus.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4g": {
+        "title": "Hintergrund",
+        "level": "h4",
+        "text": "Stellt den Hintergrund für den Block ein. siehe hierzu auch den Bereich <b>Layout-Einstellungen</b> im Kapitel <b>Layouts</b>.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4h": {
+        "title": "Blöcke verschieben",
+        "level": "h3",
+        "text": "Blöcke können auf einer Seite beliebig verschoben werden. Klicken sie dafür einen Block im Layout an um das Optionsmenü zu aktivieren. Klicken und halten sie nun die linke Maustaste gedrückt um den Block zu verschieben. (Drag & Drop) <br><br>Dabei kann der Block innerhalb derselben Spalte nach oben oder unten, in eine neue Spalte daneben oder auch in ein anderes Layout auf der Seite verschoben werden.<br>Lassen sie die linke Maustaste los wenn der Block an der gewünschten Stelle angezeigt wird.<br><br>Dieses Verschieben ist auch mit ganzen Layout-Zeilen über denselben Button am unteren, rechten Rand des Layouts möglich.",
+        "image": "move-blocks.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4i": {
+        "title": "Blöcke kopieren",
+        "level": "h3",
+        "text": "Ein Block kann mittels <b>Copy&Paste</b> an eine andere Stelle im Layout der Seite, oder sogar auf eine andere Seite kopiert werden.<br><br>1. Wählen sie dazu wieder den gewünschten Block aus, sodass dieser blau umrandet ist.<br>2. Drücken sie nun Strg + C auf ihrer Tastatur. Im Kopfbereich des Panels erscheint die Meldung <b>1 copied!</b>.<br><br>Der Block ist nun in der Zwischenablage und kann auf einer beliebigen Seite eingefügt werden. Es ist auch möglich, mehrere Blöcke derselben Spalte auf einmal zu kopieren. Halten sie dazu die Strg-Taste gedrückt, während sie die gewünschten Blöcke auswählen.",
+        "image": "copy-blocks.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4j": {
+        "title": "Blöcke einfügen",
+        "level": "h3",
+        "text": "Um den kopierten Block nun an anderer Stelle einzufügen gibt es drei Möglichkeiten:",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4k": {
+        "title": "1. Möglichkeit",
+        "level": "h4",
+        "text": "Klicken sie einen Block an, unter dem sie den kopierten Block einfügen möchten. Klicken sie im Optionsmenü auf den <b>[...]-Button</b> und dann auf <b>Danach einfügen</b>. Sobald das Overlay erscheint, drücken sie <b>Strg + V</b> auf ihrer Tastatur um den Block einzufügen.",
+        "image": "paste-blocks.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4l": {
+        "title": "2. Möglichkeit",
+        "level": "h4",
+        "text": "Klicken sie einen Block an, unter dem sie den kopierten Block einfügen möchten. Drücken sie <b>Strg + V</b> auf ihrer Tastatur um den Block danach einzufügen.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4m": {
+        "title": "3. Möglichkeit",
+        "level": "h4",
+        "text": "Wenn die Blockauswahl für das Erstellen eines neuen Blockes sichtbar ist, kann der kopierte Block ebenfalls mit <b>Strg + V</b> eingefügt werden.",
+        "image": "select-block.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4n": {
+        "title": "Weitere Funktionen von Blöcken",
+        "level": "h3",
+        "text": "Über den <b>[...]-Button</b> sind weitere Funktionen von Blöcken verfügbar:",
+        "image": "block-options.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4o": {
+        "title": "Bearbeiten",
+        "level": "h4",
+        "text": "Öffnet die Detailansicht des Blockes",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4p": {
+        "title": "Blocktyp ändern",
+        "level": "h4",
+        "text": "Öffnet die Auswahl des Blocktyps und wandelt den Block in einen anderen Typ um. Dabei gehen möglicherweise Inhalte verloren, da nicht jedes Feld in jedem Blocktyp verfügbar ist.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4q": {
+        "title": "Kopieren und Danach einfügen",
+        "level": "h4",
+        "text": "siehe dazu den Bereich <b>Block kopieren</b>.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4r": {
+        "title": "Verbergen",
+        "level": "h4",
+        "text": "Macht den Block auf der Website unsichtbar. Dieser wird im Layout nun transparent dargestellt.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4s": {
+        "title": "Duplizieren",
+        "level": "h4",
+        "text": "Erstellt eine Kopie des Blockes unmittelbar darunter im Layout.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section4t": {
+        "title": "Löschen",
+        "level": "h4",
+        "text": "Löscht den Block nach erneuter Abfrage komplett aus dem Layout.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section5": {
+        "title": "Änderungen speichern",
+        "level": "h2",
+        "text": "Sobald eine Änderung an einer Seite vorgenommen wurde, erscheint am unteren Bildrand des Panels eine orange Leiste. Dies zeigt an, dass ungespeicherte Änderungen auf der Seite existieren. Die Leiste bleibt solange sichtbar, bis sie die Änderungen verwerfen oder speichern. Auch, wenn sie zwischendurch andere Seiten bearbeiten. Sobald sie sich aus dem Panel abmelden oder den Browser schließen, sind ihre Änderungen verloren.",
+        "image": "site-changes.jpg",
+        "id": "section5",
+        "setAnchor": true
+    },
+    "section5a": {
+        "title": "",
+        "level": "h3",
+        "text": "Ein Klick auf <b>Verwerfen</b> stellt die letzte gespeicherte Version der Seite wieder her. Alle gemachten Änderungen werden verworfen. Ein Klick auf <b>Speichern</b> veröffentlicht ihre Änderungen an der Seite. Ist die Seite NICHT im Entwurfsstatus, sind die Änderungen damit automatisch auf der Website sichtbar.",
+        "image": "site-changes.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section5b": {
+        "title": "Vorschaumodus",
+        "level": "h3",
+        "text": "Möchten sie eine neue Seite und ihre Inhalte testen, kann diese auch im Entwurfsstatus betrachtet werden. Klicken sie dazu auf den <b>Öffnen<b>-Button unterhalb des Seitentitels. Dadurch öffnet sich ein neuer Tab im Browser mit der Seite, wie sie später für alle Nutzer zu sehen ist. Diese Vorschauseite ist nur für sie als eingeloggten Nutzer undnur solange sie eingeloggt sind sichtbar. Möchten sie die Seite veröffentlichen, müssen sie nun lediglich den Status ändern. siehe dazu <b>Status einer Seite</b> im Kapitel <b>Seiten anlegen</b>.",
+        "image": "preview-page.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section6": {
+        "title": "Text formatieren",
+        "level": "h2",
+        "text": "Zur Formatierung ihrer Texte müssen sie nur den enstprechenden Text im Block markieren um das zugehörige Optionsmenü zu öffnen. Der erste Button öffnet die Auswahl der Textart. Hier können sie zwischen Absatz, Überschriften und Listen wechseln. Zusätzlich haben sie die Möglichkeit, den ausgewählten Text bold (fett), kursiv, durchgestrichen oder unterstrichen zu formatieren. Der </>-Button erzeugt eine Code-Ausgabe des Textes (nur selten nötig). Der Ketten-Button erzeugt einen Link. Über den Brief-Button können sie eine E-Mail-Adresse verlinken",
+        "image": "textedit.jpg",
+        "id": "section6",
+        "setAnchor": true
+    },
+    "section6a": {
+        "title": "Absätze und Umbrüche",
+        "level": "h3",
+        "text": "Durch Drücken der Enter-Taste wird automatisch ein neuer Absatz im Text erzeugt. Das ist durch den erhöhten Abstand zwischen den Absätzen ersichtlich. Möchten sie lediglich einen Umbruch in die neue Zeile erzeugen drücken sie Shift + Enter.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section6b": {
+        "title": "Lange Wörter umbrechen lassen",
+        "level": "h3",
+        "text": "Sehr lange Wörter können besonders auf Mobilgeräten zu Darstellungsfehlern führen, da diese nicht automatisch umbrechen. Ein guter Tipp ist es hier, einen sogenannten <b>stillen Umbruch (&shy;)</b> oder auch bedingten Trennstrich einzufügen. Unter Windows gelingt dies am besten, wenn sie den Textcursor an der gewünschten Trennstelle platzieren und dann die Tastenkombination <b>ALT + 0173</b> auf dem Ziffernblock drücken. Das erzeugte Zeichen ist nicht sichtbar, sorgt aber für einen Umbruch des Wortes an dieser Stelle, wenn der Platz nicht ausreicht um es komplett anzuzeigen. Als Indikator für das erfolgreiche Einfügen dient hierbei die orange Speichern-Leiste am Rande des Fenstern. Speichern sie alle Änderungen. Fügen sie dann das Zeichen ein und die orange Leiste sollte erscheinen. Für Mac-Nutzer funktioniert diese Tastenkombination nicht. Alternativ kann das Zeichen hierüber kopiert und dann eingefügt werden: <a href='https://unicode-table.com/de/00AD/' target='_blank'> https://unicode-table.com/de/00AD/</a>",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section7": {
+        "title": "Verlinkungen",
+        "level": "h2",
+        "text": "Über das Kettensymbol lassen sich verschiedene Arten von Links erzeugen:",
+        "image": "textedit.jpg",
+        "id": "section7",
+        "setAnchor": true
+    },
+    "section7a": {
+        "title": "Externe URL",
+        "level": "h4",
+        "text": "Erzeugt einen Link zu einer externen Seite. Dieser Link muss zwingend mit <b>https://</b> oder <b>http://</b> beginnen! Der Titel ist optional und wird dem Nutzer nur bei Mouse-Over angezeigt.",
+        "image": "external-link.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section7b": {
+        "title": "Interne URL",
+        "level": "h4",
+        "text": "Erzeugt einen Link zu einer Unterseite ihrer Website. Dieser Link muss relativ zu ihrer Domain sein. Ist der komplette Link zur Unterseite z.b. <b>https://www.ziski.de/datenschutz<b>, tragen sie im Url-Feld alles hinter </b>.de/</b> ein. Dabei hilft Ihnen die Adressleiste des Browsers.",
+        "image": "internal-link.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section7c": {
+        "title": "Telefonnummer",
+        "level": "h4",
+        "text": "Es ist außerdem möglich, eine Telefonnummer zu verlinken. Auf kompatiblen Geräten wie z.b. Smartphones wird die Nummer bei Klick automatisch gewählt. Ein Telefon-Link startet immer mit <b>tel:</b> gefolgt von der Nummer. Wichtig dabei ist, dass im Url-Feld KEINE Leerzeichen enthalten sind. Der Link wird sonst nicht erkannt. Die angezeigte Nummer im Text wiederum kann Leerzeichen enthalten.",
+        "image": "phone-link.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section7d": {
+        "title": "Buttons",
+        "level": "h4",
+        "text": "Außerhalb von Textfeldern empfiehlt sich der Einsatz eines Button-Moduls für die Einrichtung von Verlinkungen. Hierüber ist auch das Verlinken von Dateien oder Modal-Fenstern möglich.",
+        "image": "button.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section8": {
+        "title": "Bilder",
+        "level": "h2",
+        "text": "Bilder, Videos und Dateien können entweder in der globalen Mediathek der Seite, oder dem Reiter <b>Dateien</b> auf einer Seite abgelegt werden. Dateien die direkt in einer Seite hochgeladen werden, sind auch nur auf dieser Seite verfügbar. Wird ein Bild auf mehreren Seiten benötigt, sollte es in der Mediathek auf der Startseite des Panels hochgeladen werden.",
+        "image": "",
+        "id": "section8",
+        "setAnchor": true
+    },
+    "section8a": {
+        "title": "Dateigröße",
+        "level": "h3",
+        "text": "Bilder auf der Website werden automatisch in das moderne </b>.webP-Format</b> umgewandelt und komprimiert. Die Dateigröße für Bilder sollte jedoch im Rahmen bleiben und 500kb bei kleineren Bildern und 2MB bei großen, bildschirmfüllenden Fotos nicht übersteigen. Die maximale Pixelbreite sollte bei etwa 1920 bis 2049 Pixeln liegen. Wählen sie zum Speichern der Bilder das JPG-Format mit einer mittleren Qualität von 60% bis 80%.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section8b": {
+        "title": "Bilder hochladen",
+        "level": "h3",
+        "text": "Wechseln sie auf den Tab <b>Dateien</b> ihrer Seite und klicken sie auf <b>Hinzufügen</b> um den Dialog für den Upload zu öffnen. In Blöcken die Bildern verwenden, kann der Upload auch direkt über den Block erreicht werden. Das Bild wird dann automatisch im Tab Dateien abgelegt. sie können die Bilder auch per Drag & Drop auf den blau markierten Bereich ziehen:",
+        "image": "file-upload.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section8c": {
+        "title": "Bilder anpassen",
+        "level": "h3",
+        "text": "Bei Klick auf ein Bild öffnet sich die Detailansicht. Hier kann und sollte ein Alternativer Text (Alt) für das Bild vergeben werden. Das verbessert den SEO-Wert der Seite. Eine Bildunterschrift wird direkt unterhalb des Bildes angezeigt. sie können hier auch einen Link setzen, der mit Klick auf das Bild erreicht wird. Über den <b>Einstellungen<b>Button können sie folgende Funktionen nutzen:",
+        "image": "file-settings.jpg",
+        "id": "",
+        "setAnchor": false
+    },
+    "section8d": {
+        "title": "Umbenennen",
+        "level": "h4",
+        "text": "Ändert den Dateinamen des Bildes. VORSICHT: Wurde das Bild bereits verwendet, müssen sie es erneut verknüpfen.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section8e": {
+        "title": "Ersetzen",
+        "level": "h4",
+        "text": "Damit kann für das Bild eine neue Datei hochgeladen werden. Die Verknüpfung im Layout und auch Alternativtexte usw bleiben damit erhalten.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section8f": {
+        "title": "Löschen",
+        "level": "h4",
+        "text": "Löscht das Bild aus der Mediathek.",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    },
+    "section99": {
+        "title": "Kontakt",
+        "level": "h2",
+        "text": "Diese Hilfe dient als grobe Orientierung für den Umgang mit dem Kirby CMS. Einige Blöcke oder Bereiche des Panels können bei ihrer Website anders aussehen oder andere Funktionen bieten als hier beschrieben. Sollten sie Hilfe benötigen stehe ich Ihnen gerne zur Verfügung:",
+        "image": "fz-logo.png",
+        "id": "section99",
+        "setAnchor": true
+    },
+    "section99a": {
+        "title": "Frank Ziski",
+        "level": "h3",
+        "text": "E-Mail: frank@ziski.de | Telefon: +49 176 21 596 994",
+        "image": "",
+        "id": "",
+        "setAnchor": false
+    }
+  }

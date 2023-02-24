@@ -1,0 +1,52 @@
+icon: clock
+name: 
+  en: Opening Times
+  de: Öffnungszeiten
+fields:
+  heading:
+    extends: fields/heading
+  level:
+    extends: fields/headinglevel
+  dlist:
+    label: 
+      en: List
+      de: Liste
+    type: structure
+    fields:
+      dt:
+        type: writer
+        label: Label
+        width: 1/2
+      dd:
+        type: writer
+        label: 
+          en: Content
+          de: Inhalt
+        width: 1/2
+  orientation:
+    label:
+      en: Orientation
+      de: Listen-Ausrichtung
+    type: radio
+    options:
+      vertical:
+        en: vertical
+        de: Vertikal
+      horizontal:
+        en: horizontal
+        de: Horizontal
+    columns: 2
+    default: horizontal
+  line:
+    type: line
+  fontColor:
+    extends: fields/font-color
+  background:
+    extends: fields/background
+    width: 2/3
+  alignContent:
+    extends: fields/align-content
+  alignBlock:
+    extends: fields/align-block
+  width:
+    extends: fields/width

@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveSassCompile.settings.forceBaseDirectory": "/assets/scss",
+		"liveSassCompile.settings.generateMap": true,
+		"liveSassCompile.settings.autoprefix": false,
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "compressed", /* compressed | expanded */
+				"extensionName": ".css",
+				"savePath": "/assets/css",
+				"savePathSegmentKeys": null,
+				"savePathReplaceSegmentsWith": null
+			}
+		],
+		"liveSassCompile.settings.includeItems": [
+			"main.scss"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+type: toggle
+label: Anzeigen | Verbergen
+default: false
+text:
+  - 
+    en: Hide
+    de: Verborgen
+  - 
+    en: Show
+    de: Sichtbar
+translate: true

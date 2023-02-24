@@ -1,0 +1,106 @@
+type: group
+fields:
+  bgEnabled:
+    extends: fields/toggler
+    label:
+      en: Background
+      de: Hintergrund
+    width: 1/2
+  bgType:
+    label: 
+      en: Type
+      de: Typ
+    type: multi-toggle
+    equalize: true
+    options:
+      - value: color
+        text: 
+          en: Color
+          de: Farbe
+        icon: circle-half
+      - value: image
+        text: 
+          en: Image
+          de: Bild
+        icon: image  
+    when:
+      bgEnabled: true
+    width: 1/2
+  color:
+    extends: fields/color-options
+    label: 
+      en: Background Color
+      de: Hintergrundfarbe
+    when:
+      bgEnabled: true
+      bgType: color
+  backgroundImage:
+    extends: fields/image
+    label: 
+      en: Background Image
+      de: Hintergrundbild
+    when:
+      bgEnabled: true
+      bgType: image
+  positionHorizontal:
+    label: Position horizontal
+    default: center
+    type: multi-toggle
+    reset: false
+    options:
+      left: 
+        en: Left
+        de: Links
+      center: 
+        en: Center
+        de: Zentriert
+      right: 
+        en: right
+        de: Rechts
+    when:
+      bgEnabled: true
+      bgType: image
+    width: 1/2
+  positionVertical:
+    label: 
+      en: Position vertical
+      de: Position vertikal
+    default: center
+    type: multi-toggle
+    reset: false
+    options:
+      top: 
+        en: Top
+        de: Oben
+      center: 
+        en: Center
+        de: Zentriert
+      bottom: 
+        en: Bottom
+        de: Unten
+    when:
+      bgEnabled: true
+      bgType: image
+    width: 1/2
+  backgroundSize:
+    label: 
+      en: Background Size
+      de: Hintergrund-Größe
+    default: full-width
+    options:
+      full-width: 
+        en: Full width
+        de: Volle Breite
+      content-width: 
+        en: Content width
+        de: Inhaltsbreite
+      bg-cols-only: 
+        en: Separate Columns
+        de: Getrennte Spalten
+      full-screen: 
+        en: Full screen
+        de: Bildschirmhöhe
+    type: multi-toggle
+    when:
+      bgEnabled: true
+      

@@ -1,0 +1,31 @@
+// Color Classes
+$color-names: 
+    "black", 
+    "white", 
+    "grey", 
+    "primary",
+    "secondary";
+
+$colors: 
+    var(--color-black), 
+    var(--color-white), 
+    var(--color-grey), 
+    var(--color-primary),
+    var(--color-secondary);
+
+@for $i from 1 through length($color-names) {
+    .color-#{nth($color-names, $i)} {
+        color: nth($colors, $i) !important;
+    }
+    .bg-color-#{nth($color-names, $i)} {
+        background-color: nth($colors, $i);
+
+        &.bg-cols-only {
+            background-color: transparent;
+
+            .block {
+                background-color: nth($colors, $i);
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+label:
+  en: advanced
+  de: Erweitert
+icon: code
+fields:
+  pageTitle:
+    label: (SEO) Titel der Seite
+    type:  text
+    help: optional - wenn leer wird Standardtitel verwendet  
+    width: 1/2 
+  keywords:
+    label: (SEO) Schlagworte
+    type:  tags
+    separator: ,
+    index: all
+    help: Jedes Schlagwort mit Enter getrennt
+    options: query
+    query: site.children.published
+    width: 1/2
+  description:
+    label: (SEO) Beschreibung der Seite
+    type:  textarea
+    help: wenn leer - entweder Hero Text oder erster Text im Inhalt
+    width: 1/2
+  cover: 
+    extends: fields/cover
+    width: 1/2
+  excludeFromSitemap:
+    extends: fields/toggler
+    label: 
+      en: Exclude from Sitemap
+      de: Aus Sitemap entfernen
+    default: false
+    width: 1/2
+  date:
+    default: now
+    label: 
+      en: Published
+      de: Veröffentlicht am
+    translate: true
+    type: date
+  customCss:
+    buttons: false
+    label: Custom CSS
+    size: medium
+    spellcheck: false
+    translate: true
+    type: textarea
+  codeHeader:
+    buttons: false
+    label: Custom header code
+    size: medium
+    spellcheck: false
+    translate: true
+    type: textarea
+  codeFooter:
+    buttons: false
+    label: Custom footer code
+    size: medium
+    spellcheck: false
+    translate: true
+    type: textarea

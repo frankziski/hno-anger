@@ -1,0 +1,339 @@
+title: Site
+
+tabs:
+  pages:
+    label:
+      en: pages
+      de: Seiten
+    icon: page
+
+    columns:
+      - width: 1/3
+        sections:
+          home:
+            headline: 
+              en: Homepage
+              de: Startseite
+            image: icon
+            layout: cardlets
+            type: pages
+            max: 1
+            info: " {{ site.title }}"
+            template: home
+            help:
+              en: you can edit the content of the homepage here | it cannot be deleted
+              de: Inhalt der Startseite ändern | Kann nicht gelöscht werden
+          drafts:
+            headline: 
+              en: Drafts
+              de: Entwürfe
+            image: page.cover.toFile
+            status: draft
+            template:
+              - default
+              - posts
+            type: pages
+            info: "Template: {{ page.template }}"
+
+      - width: 2/3
+        sections:
+          listed:
+            headline: 
+              en: Listed
+              de: Gelistet
+            image:
+              cover: true
+              query: page.cover.toFile
+              ratio: 3/2
+            layout: cardlets
+            status: listed
+            type: pages
+            info: "Template: {{ page.template }}"
+            help:
+              en: these pages are published and included in the main menu.
+              de: Diese Seiten sind veröffentlicht und im Hauptmenü verlinkt.
+          unlisted:
+            headline: 
+              en: Unlisted
+              de: Ungelistet
+            image: page.cover.toFile
+            layout: cardlets
+            status: unlisted
+            template:
+              - default
+              - posts
+              - s
+            type: pages
+            info: "Template: {{ page.template }}"
+            help:
+              en: these pages are published and can be reached with their url.
+              de: Diese Seiten sind veröffentlicht und über ihre URL erreichbar.
+
+  media:
+    label:
+      en: Global Media
+      de: Globale Medien
+    icon: images
+    sections:
+      files:
+        headline: 
+          en: Global files
+          de: Globale Dateien
+        layout: cardlets
+        sortBy: date desc
+        type: files
+
+  header:
+    label: Header & footer
+    icon: server
+    fields:
+      headerLanguages:
+        label: 
+          en: Language selection
+          de: Sprachumschalter
+        text:
+          - 
+            en: Hide
+            de: Versteckt
+          - 
+            en: Show
+            de: Sichtbar
+        type: toggle
+        help:
+            en: only relevant if there is more than one language included
+            de: Nur relevant wenn mehr als 1 Sprache angelegt wurde
+        translate: true
+        width: 1/4
+      headerSearch:
+        label: 
+          en: Search icon
+          de: Such-Icon
+        text:
+          - 
+            en: Hide
+            de: Versteckt
+          - 
+            en: Show
+            de: Sichtbar
+        type: toggle
+        translate: true
+        width: 1/4
+      headerSocial:
+        label: 
+          en: Social icons
+          de: Social-Media-Icons
+        text:
+          - 
+            en: Hide
+            de: Versteckt
+          - 
+            en: Show
+            de: Sichtbar
+        type: toggle
+        translate: true
+        width: 1/4
+      headerShowHomepage:
+        label: 
+          en: Homepage in Main Menu
+          de: Homepage im Menü
+        text:
+          - 
+            en: Hide
+            de: Versteckt
+          - 
+            en: Show
+            de: Sichtbar
+        type: toggle
+        translate: true
+        width: 1/4
+      headerButtons: 
+        extends: fields/linkfield
+        max: 99    
+      footerBlocks:
+        extends: fields/layout
+        fields:
+          blocks:
+            label: Footer-Layout
+
+  settings:
+    label:
+        en: settings
+        de: Einstellungen
+    icon: cog
+    columns:
+      - width: 1/2
+        fields:
+          generalHeadline:
+            label: 
+              en: General
+              de: Allgemein
+            numbered: false
+            type: headline
+          tagline:
+            help:
+              en: Displays after the title in the browser bar
+              de: Wird im Browser hinter dem Seitentitel angezeigt.
+            label: Tagline
+            type: text
+          dateFormat:
+            help: 
+              en: Click <a href="https://www.php.net/manual/de/function.date.php" target="_blank">here</a> for available formats.
+              de: Alle verfügbare <a href="https://www.php.net/manual/de/function.date.php" target="_blank">Datumsformate</a>. Standard = d.m.Y
+            label: 
+              en: Date format
+              de: Datumsformat
+            placeholder: d.m.Y
+            type: text
+            width: 1/2
+          
+
+          languageHeadline:
+            label: 
+              en: Language
+              de: Sprache
+            numbered: false
+            type: headline
+          languageCode:
+            help: 
+              en: Common examples are "en" for English, "es" for Spanish, "fr" for France and so on.
+              de: "de" für Deutsch, "en" für Englisch usw
+            label: 
+              en: Default language code
+              de: Standard-Sprache (Code)
+            placeholder: de
+            spellcheck: false
+            translate: true
+            type: text
+
+          socialSettingsHeadline:
+            label: Social-Media
+            numbered: false
+            type: headline
+          socialProfiles:
+            label: 
+              en: Social Media Profiles
+              de: Social Media Profile
+            type: structure
+            fields:
+              socialProfileName:
+                label: Name
+                type: text
+              socialProfileLink:
+                label: URL
+                type: url
+              socialProfileIcon:                
+                label: Icon (SVG-Code)
+                type: text
+
+      - width: 1/2
+        sections:
+          content:
+            type: fields
+            fields:
+              logoHeadline:
+                label: Logo
+                numbered: false
+                type: headline
+              logoType:
+                default: text
+                empty: false
+                label: 
+                  en: Type
+                  de: Typ
+                options:
+                  none: 
+                    en: None
+                    de: Keins
+                  image: 
+                    en: Image
+                    de: Bild
+                  svg: SVG
+                  text: Text
+                translate: true
+                type: select
+              logoImage:
+                label: Logo upload
+                max: 1
+                query: site.images.sortBy('date', 'desc')
+                translate: true
+                type: files
+                uploads: image
+                when:
+                  logoType: image
+              logoSvg:
+                label: SVG code
+                translate: true
+                type: text
+                when:
+                  logoType: svg
+
+              iconHeadline:
+                label: Favicon
+                numbered: false
+                type: headline
+              icon:
+                help: 
+                  en: Icon should be square and at least 512px × 512px.
+                  de: Mindestens 512 x 512px
+                label: Icon upload
+                max: 1
+                query: site.images.sortBy('date', 'desc')
+                translate: true
+                type: files
+                uploads: image
+
+              coverHeadline:
+                label: Cover
+                numbered: false
+                type: headline
+              cover:
+                extends: fields/cover
+                help: 
+                  en: The cover is added to your URL when shared on social media. Pages without a cover will use this image instead. We recommend at least 500px wide.
+                  de: Das Cover wird zu Links hinzugefüt wenn diese auf sozialen Medien geteilt werden. Seiten ohne Cover zeigen immer dieses Bild an. Mindestens 500px Breit
+                query: site.images.sortBy('date', 'desc')
+
+              cookieHeadline:
+                label: Cookies
+                numbered: false
+                type: headline
+              showCookiebanner:
+                extends: fields/toggler
+                label: 
+                  en: Show Cookie Banner
+                  de: Cookiebanner
+                width: 1/3
+              cookiehintText:
+                label: Cookiehinweis Text
+                type: writer
+                width: 2/3
+                help: Wird ausgegeben anstelle von Inhalten die Cookie-Berechtigung brauchen
+                when:
+                  showCookiebanner: true
+
+              styleHeadline:
+                label: Style
+                numbered: false
+                type: headline
+              customCss:
+                buttons: false
+                help: 
+                  en: Add your own CSS code here to customize the appearance and layout of your site.
+                  de: Eigener CSS Code um das Styling zu überschreiben
+                label: Custom CSS
+                size: medium
+                spellcheck: false
+                translate: true
+                type: textarea
+              
+              codeHeadline:
+                label: Code
+                numbered: false
+                type: headline
+              codeHeader:
+                buttons: false
+                label: Custom header code
+                size: medium
+                spellcheck: false
+                translate: true
+                type: textarea

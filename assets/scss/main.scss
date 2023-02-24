@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*!
+ *
+ *   Author: Frank Ziski
+ *   Author URI: https://ziski.de
+ *   Created with the Help from: Themes for Kirby <hello@themesforkirby.com>
+ *   Co-Author URI: https://themesforkirby.com/
+ *   Version: v1.0.0
+ *   License: GNU General Public License, Version 2
+ *   License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *   Copyright (C) Frank Ziski
+ *
+*/
+
+@import "src/fonts";
+@import "src/mixins";
+@import "src/variables";
+@import "src/animation";
+@import "src/global";
+@import "src/buttons";
+@import "src/typography";
+@import "src/colors";
+@import "src/helper";
+@import "src/backgrounds";
+@import "src/hamburger";
+@import "src/header";
+@import "src/footer";
+@import "src/layout";
+@import "src/search";
+@import "src/lightbox";
+@import "src/content";
+@import "src/video";
+@import "src/blog";
+@import "src/form";
+@import "src/cookiebanner";
+
+// BLOCKS
+
+@import "src/blocks/hero";
+@import "src/blocks/blurb";
+@import "src/blocks/code";
+@import "src/blocks/info";
+@import "src/blocks/posts";
+@import "src/blocks/slider";
+@import "src/blocks/accordion";
+@import "src/blocks/carousel";
+@import "src/blocks/openingtimes";
+@import "src/blocks/tabs";
+@import "src/blocks/menusection";
+@import "src/blocks/table";
+@import "src/blocks/teaser";

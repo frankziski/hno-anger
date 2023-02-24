@@ -1,0 +1,66 @@
+icon: book
+name: 
+  en: Menu Section
+  de: Speisekarten-Abschnitt
+fields:
+  heading:
+    label: Headline
+    type: writer
+    inline: true
+  text:
+    label: Text - optional
+    type: writer
+  alignHeadline:
+    extends: fields/align-content
+    label:
+      en: align Headline
+      de: Headline-Ausrichtung
+  menuitems:
+    label:
+      en: Items
+      de: Einträge
+    type: structure
+    fields:
+      itemTitle:
+        label: Name
+        type: writer
+        inline: true
+        placeholder: Kartoffelsuppe
+        width: 3/4
+      itemPrice:
+        label: 
+          en: Price
+          de: Preis
+        type: number
+        placeholder: 99
+        step: .01
+        after: €
+        width: 1/4
+      itemDetails:
+        label: 
+          en: Description
+          de: Beschreibung
+        type: writer
+        inline: true
+      itemAdditives:
+        label:
+          en: Additives
+          de: Zusatzstoffe
+        type: multiselect
+        options: query
+        sort: true
+        query:
+          fetch: page.additives.toStructure
+          text: "{{ structureItem.additiveName }}"
+          value: "{{ structureItem.additiveId }}"
+  line:
+    type: line
+  fontColor:
+    extends: fields/font-color
+  alignContent:
+    extends: fields/align-content
+  alignBlock:
+    extends: fields/align-block
+  width:
+    extends: fields/width
+  background: fields/background

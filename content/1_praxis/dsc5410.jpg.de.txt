@@ -1,0 +1,17 @@
+Alt: 
+
+----
+
+Caption: Hier könnte eine Bildunterschrift mit Besonderheiten zur Praxis stehen
+
+----
+
+Date: 2023-02-18 11:40:00
+
+----
+
+Uuid: OVg82v5QvGwWCWoU
+
+----
+
+Template: image

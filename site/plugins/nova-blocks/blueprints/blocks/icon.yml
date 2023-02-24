@@ -1,0 +1,13 @@
+icon: heart-outline
+name: Icon
+preview: icon
+fields:
+  svgcode: 
+    label: SVG-Code
+    type: text
+    translate: false
+  linkfield:
+    extends: fields/linkfield
+  line:
+    type: line
+  blocksettings: fields/blocksettings

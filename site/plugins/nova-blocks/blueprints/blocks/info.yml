@@ -1,0 +1,35 @@
+icon: bookmark
+name: Info
+preview: info
+wysiwyg: true
+fields:
+  text:
+    inline: true
+    label: Text
+    placeholder: Text...
+    type: writer
+  context:
+    label: 
+      en: Context
+      de: Kontext
+    default: default
+    type: multi-toggle
+    reset: false
+    equalize: true
+    options:
+      default: 
+        en: Default
+        de: Standard
+      negative: 
+        en: Negative
+        de: Negativ
+      positive: 
+        en: Positive
+        de: Positiv
+      warning: 
+        en: Warning
+        de: Warnung
+    width: 1/3
+  line:
+    type: line
+  blocksettings: fields/blocksettings

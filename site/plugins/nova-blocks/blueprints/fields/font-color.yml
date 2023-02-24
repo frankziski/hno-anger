@@ -1,0 +1,5 @@
+extends: fields/color-options
+label:
+  en: Font Color
+  de: Schriftfarbe
+translate: false

@@ -1,0 +1,40 @@
+icon: draft
+name: 
+  en: Table
+  de: Tabelle
+preview: table
+fields:
+  table:
+    label: 
+      en: Table Content
+      de: Tabelleninhalt
+    type: table
+    maxColumns: 42
+    minColumns: 1
+  createHead:
+    label: 
+      en: Head
+      de: Tabellenkopf
+    type: toggle
+    text: 
+      - 
+        en: no table head
+        en: kein Tabellenkopf
+      - 
+        en: show table head
+        en: Tabellenkopf anzeigen
+    help:
+      en: first Row of table will be the head
+      de: Erste Tabellenzeile ist Tabellenkopf
+  line:
+    type: line
+  fontColor:
+    extends: fields/font-color
+  alignContent:
+    extends: fields/align-content
+  alignBlock:
+    extends: fields/align-block
+  width:
+    extends: fields/width
+  background:
+    extends: fields/background

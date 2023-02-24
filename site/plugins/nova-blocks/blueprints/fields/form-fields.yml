@@ -1,0 +1,217 @@
+label:
+  en: Form Setup
+  de: Formular-Aufbau
+fields:
+  heading:
+    inline: true
+    label: 
+      en: Heading
+      de: Headline
+    marks:
+      - italic
+      - strike
+      - underline
+      - link
+    placeholder: Headline...
+    type: writer
+    width: 3/4
+  fontSize:
+    default: h3
+    empty: false
+    label: 
+      en: Font size
+      de: Schriftgröße
+    options:
+      hero: Hero
+      h1: H1
+      h2: H2
+      h3: H3
+      h4: H4
+      h5: H5
+      h6: H6
+    type: select
+    width: 1/4  
+  formBuilder:
+    type: structure
+    columns:
+      fieldType:
+        width: 1/4
+      fieldName:
+        width: 1/4
+      fieldLabel:
+        width: 1/4
+      fieldRequired:
+        width: 1/4
+    label:
+      en: form fields
+      de: Formularfelder
+    fields:
+      fieldType:
+        type: select
+        width: 1/2
+        default: text-input
+        label:
+          en: field type
+          de: Feldtyp
+        options:
+          text-input: Text
+          mail-input: Mail
+          text-area: Textarea
+          number: Nummer
+          input-date: Datum
+          input-time: Zeit
+          checkbox: Checkbox
+          select: Select
+          parameter: Parameter
+          acceptTerms: Richtlinien akzeptieren
+          headline: Headline
+          pagetitle: Seitentitel
+      fieldRequired:
+        type: toggle
+        width: 1/2
+        label:
+          en: Required Field
+          de: Pflichtfeld
+        text:
+          - 
+            en: not required
+            de: kein Pflichtfeld
+          - 
+            en: required
+            de: Pflichtfeld
+      fieldName:
+        type: text
+        width: 1/2
+        label: 
+          en: Field Name
+          de: Feld-Name
+        help:
+          en: has to be unique. Only lower letters | no special characters | for mail-adress use >email<
+          de: Muss einzigartig sein. | Aa123-_ | keine Leerzeichen
+      fieldLabel:
+        type: text
+        width: 1/2
+        label: 
+          en: Field Label
+          de: Feld-Bezeichnung
+      fieldCheckboxText:
+        type: writer
+        label: Checkbox - Text
+        inline: true
+        when: 
+          fieldType: checkbox
+      fieldCheckboxActive:
+        type: toggle
+        label: 
+          en: Checked?
+          de: Zu Beginn gesetzt?
+        text:
+          - 
+            en: not checked
+            de: nicht gesetzt
+          - 
+            en: checked
+            de: gesetzt
+        when: 
+          fieldType: checkbox
+      fieldSelectOptions:
+        type: structure
+        label:
+          en: Values
+          de: Auswahlmöglichkeiten
+        fields:
+          optionName:
+            label:
+              en: Value
+              de: Wert
+            type: text
+            width: 1/2
+          optionText:
+            label:
+              en: shown Text
+              de: Angezeigter Text
+            type: text
+            width: 1/2
+        when:
+          fieldType: select
+      fieldSelectRadio:
+        type: toggle
+        label: 
+          en: Appearance
+          de: Darstellung
+        text:
+          - 
+            en: Dropdown
+            de: Dropdown-Liste
+          - 
+            en: Radio-Buttons
+            de: Radio-Buttons
+        when: 
+          fieldType: select
+      fieldNumberMin:
+        type: number
+        label: Min
+        width: 1/2
+        when: 
+          fieldType: number
+      fieldNumberMax:
+        type: number
+        label: Max
+        width: 1/2
+        when: 
+          fieldType: number
+      fieldTimeMin:
+        type: text
+        label: Min Zeit
+        width: 1/2
+        help: Format - 12:30
+        when: 
+          fieldType: input-time
+      fieldTimeMax:
+        type: text
+        label: Max Zeit
+        width: 1/2
+        help: Format - 12:30
+        when: 
+          fieldType: input-time
+      fieldParam:
+        type: text
+        label: Paramater - Standardwert
+        when: 
+          fieldType: parameter
+      fieldTermsText:
+        label: Text
+        type: writer
+        when: 
+          fieldType: acceptTerms
+      fieldTermsLink:
+        label: 
+          en: Link to specific terms or policy
+          de: Link zu Bestimmungen, AGB etc
+        type: pages
+        width: 2/3
+        multiple: false
+        when: 
+          fieldType: acceptTerms
+      fieldTermsLinkLabel:
+        label: Link-Name
+        type: text
+        width: 1/3
+        when: 
+          fieldType: acceptTerms
+      fieldPagetitleInfo:
+        type: info
+        label: Info
+        text:
+          en: submits the page title to the form. Useful for separating between events or multiple Forms
+          de: übergibt den Seitentitel an das Formular. Hilfreich bei Events oder mehreren Formularen
+        when: 
+          fieldType: pagetitle
+      fieldError:
+        type: text
+        label:
+          en: Error Message
+          de: Fehlertext
+        help:
+          en: optional - Is shown when the field is not filled properly
+          de: Optional - Wird angezeigt wenn das Feld nicht korrekt ausgefüllt wurde.

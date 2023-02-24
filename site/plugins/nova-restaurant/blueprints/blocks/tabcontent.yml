@@ -1,0 +1,18 @@
+name: Tab
+icon: box
+fields:
+  tabTitle:
+    type: text
+    default: Tab
+    label: 
+      en: Title
+      de: Titel
+  tabcontent:
+    type: blocks
+    label: 
+      en: Tab-Content
+      de: Tab-Inhalte
+    fieldsets:
+      text: blocks/text
+      image: blocks/image
+      menusection: blocks/menusection

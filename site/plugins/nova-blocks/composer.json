@@ -1,0 +1,23 @@
+{
+    "name": "fz/nova-blocks",
+    "description": "Collection of custom Blocks for Kirby 3.6+. Requires the kirby-multi-toggle-field plugin",
+    "type": "kirby-plugin",
+    "version": "1.2.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phrank Ziski",
+            "email": "frank@ziski.de"
+        }
+    ],
+    "keywords": [
+      "kirby3",
+      "kirby3-cms",
+      "kirby3-plugin",
+      "kirby3-blocks"
+    ],
+    "require": {
+      "php": ">=8.0.0",
+      "getkirby/composer-installer": "^1.1"
+    }
+}

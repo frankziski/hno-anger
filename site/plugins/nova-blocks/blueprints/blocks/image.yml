@@ -1,0 +1,25 @@
+icon: image
+name: 
+  en: Image
+  de: Bild
+preview: image
+fields:
+  source: fields/image
+  showLightbox:
+    label:
+      en: Show Lightbox on Click
+      de: Bei Klick vergrößern
+    type: toggle
+    default: true
+    text:
+      - 
+        en: inactive
+        de: inaktiv
+      - 
+        en: Active
+        de: Aktiv
+  linkfield:
+    extends: fields/linkfield
+  line:
+    type: line
+  blocksettings: fields/blocksettings

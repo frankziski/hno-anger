@@ -1,0 +1,69 @@
+.block-type-menusection {
+    .menusection-intro {
+        width: 100%;
+        margin-bottom: var(--space-20);
+    }
+
+    .menusection-items {
+        width: 100%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+        grid-gap: var(--space-30);
+
+        @include medium-up {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .menusection-item {
+            .title {
+                h5 {
+                    margin-bottom: 0;
+                }
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px dotted currentColor;
+            }
+
+            .description {
+                padding-top: var(--space-025);
+            }
+        }
+    }
+}
+
+.btn-additives {
+    background: var(--color-text);
+    color: var(--color-white);
+    border: 0;
+    padding: var(--space-025) var(--space-05);
+    font-size: var(--font-size-small);
+    font-weight: 400;
+
+    &:hover, &:focus {
+        border: 0;
+        outline: none;
+        background: var(--color-black);
+        color: var(--color-white);
+    }
+}
+
+.popover {
+    z-index: 800;
+    border: 0;
+    background: var(--color-white);
+    font-size: var(--font-size-base);
+    @include box-shadow-glow;
+
+    .popover-header {
+        background: transparent;
+        border: 0;
+    }
+
+    .popover-body {
+        padding-top: 0;
+    }
+}

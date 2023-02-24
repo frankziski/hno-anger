@@ -1,0 +1,96 @@
+type: group
+fields:
+  settingHeadline:
+    type: headline
+    label: Layout-Einstellungen
+    numbered: false
+  width: 
+    extends: fields/width
+    columns: 1
+    width: 1/2
+  alignVertical:
+    label: 
+      en: Vertical alignment
+      de: Vertikale Ausrichtung
+    default: align-items-center
+    type: multi-toggle
+    options:
+      align-items-center: 
+        en: Middle
+        de: Mittig
+      align-items-start: 
+        en: Top
+        de: Oben
+      align-items-end: 
+        en: Bottom
+        de: Unten
+      align-items-stretch: 
+        en: Stretcg
+        de: Ausfüllen
+    translate: false
+    width: 1/2
+  padding:
+    label: 
+      en: Padding
+      de: Innenabstand (Padding)
+    type: checkboxes
+    columns: 4
+    default: 
+      - padding-top
+      - padding-bottom
+      - padding-left
+      - padding-right
+    options:
+      padding-top: 
+        en: Top
+        de: Oben
+      padding-bottom: 
+        en: Bottom
+        de: Unten
+      padding-left: 
+        en: Left
+        de: Links
+      padding-right: 
+        en: Right
+        de: Rechts
+    translate: false
+  marginBottom:
+    extends: fields/toggler
+    icon: expand
+    label: 
+      en: Margin Bottom
+      de: Abstand zum nächsten Layout (Margin)
+    default: true
+    translate: false
+  line:
+    type: line
+  background:
+    extends: fields/background
+  line2:
+    type: line
+  columnReverse:
+    extends: fields/toggler
+    label: 
+      en: Reverse columns on mobile
+      de: Mobile - Spalten umkehren
+    width: 1/2
+  visibility:
+    extends: fields/toggler
+    label: 
+      en: Visibility
+      de: Sichtbarkeit
+    default: true
+    icon: preview
+    width: 1/2
+  customId:
+    label: ID
+    type: text
+    translate: false
+    width: 1/2
+  customClass:
+    label: 
+      en: Class
+      de: Klasse
+    type: text
+    translate: false
+    width: 1/2

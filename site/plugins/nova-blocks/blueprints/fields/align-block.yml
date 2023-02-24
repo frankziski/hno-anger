@@ -1,0 +1,25 @@
+label: 
+  en: Block align
+  de: Block-Ausrichtung
+type: multi-toggle
+default: left
+textLabels: false
+equalize: true
+options:
+  - value: left
+    text: 
+      en: Left
+      de: Links
+    icon: grid-left
+  - value: center
+    text: 
+      en: Center
+      de: Zentriert
+    icon: grid-bottom
+  - value: right
+    text: 
+      en: Right
+      de: Rechts
+    icon: grid-right
+translate: false
+width: 1/3

@@ -1,0 +1,295 @@
+title: 
+  en: Posts
+  de: Blog-Seite
+
+options:
+  changeSlug:
+    admin: true
+    author: false
+    editor: true
+  changeStatus:
+    admin: true
+    author: false
+    editor: true
+  changeTitle:
+    admin: true
+    author: false
+    editor: true
+  create:
+    admin: true
+    author: false
+    editor: true
+  delete:
+    admin: true
+    author: false
+    editor: true
+  duplicate:
+    admin: true
+    author: false
+    editor: true
+  update:
+    admin: true
+    author: false
+    editor: true
+
+status:
+  extends: sections/status
+
+tabs:
+  posts:
+    label:
+      en: Posts
+      de: Beiträge
+    icon: book
+    columns:
+      - width: 1/3
+        sections:
+          drafts:
+            extends: sections/posts
+            headline: 
+              en: Drafts
+              de: Entwürfe
+            image: page.cover.toFile
+            status: draft
+            sortBy: date desc
+            sortable: false
+            template:
+              - post
+              - event
+
+      - width: 2/3
+        sections:
+          listed:
+            extends: sections/posts
+            headline: 
+              en: Published
+              de: Gelistet
+            image: page.cover.toFile
+            status: listed
+            sortBy: date desc
+            sortable: false
+          unlisted:
+            extends: sections/posts
+            headline: 
+              en: Unlisted
+              de: Ungelistet
+            image: page.cover.toFile
+            status: unlisted
+            sortBy: date desc
+            sortable: false
+
+  settings:
+    label:
+      en: Settings
+      de: Einstellungen
+    icon: cog
+    columns:
+      - width: 2/3
+        fields:
+          postsHeadline:
+            label: 
+              en: Blog Page
+              de: Blog-Seite
+            numbered: false
+            type: headline
+          postsPerPage:
+            label: 
+              en: Posts per page
+              de: Beiträge pro Seite
+            placeholder: 10
+            translate: true
+            type: number
+            width: 1/3
+          excerptLength:
+            label: 
+              en: Length of Excerpt (Chars)
+              de: Zeichenlänge Textauszug
+            placeholder: 160
+            default: 160
+            translate: true
+            type: number
+            width: 1/3
+          author:
+            label: 
+              en: Author
+              de: Autor
+            text:
+              - 
+                en: Hide
+                de: Verborgen
+              - 
+                en: Show
+                de: Sichtbar
+            translate: true
+            type: toggle
+            width: 1/3
+          datePublished:
+            default: true
+            label: 
+              en: Date
+              de: Datum
+            text:
+              - 
+                en: Hide
+                de: Verborgen
+              - 
+                en: Show
+                de: Sichtbar
+            translate: true
+            type: toggle
+            width: 1/3
+          showTags:
+            default: true
+            label: Tags
+            text:
+              - 
+                en: Hide
+                de: Verborgen
+              - 
+                en: Show
+                de: Sichtbar
+            translate: true
+            type: toggle
+            width: 1/3
+          readMore:
+            label: 
+              en: Read more
+              de: Weiterlesen
+            text:
+              - 
+                en: Inactive
+                de: Inaktiv
+              - 
+                en: Active
+                de: Aktiv
+            translate: true
+            type: toggle
+            width: 1/2
+            when:
+              layout: cards
+          readMoreText:
+            label: 
+              en: Read more text
+              de: Weiterlesen - Text
+            placeholder: Read More
+            type: text
+            width: 1/2
+          emptyText:
+            label: 
+              en: empty text
+              de: Keine Beiträge - Text
+            placeholder: Keine Beiträge vorhanden
+            type: writer
+
+          line:
+            type: line
+
+          postHeadline:
+            label: 
+              en: Post options
+              de: Beitragsseite
+            numbered: false
+            type: headline
+          authorSingle:
+            label: 
+              en: Author
+              de: Autor
+            text:
+              - 
+                en: Hide
+                de: Verborgen
+              - 
+                en: Show
+                de: Sichtbar
+            translate: true
+            type: toggle
+            width: 1/3
+          datePublishedSingle:
+            default: true
+            label: 
+              en: Date
+              de: Datum
+            text:
+              - 
+                en: Hide
+                de: Verborgen
+              - 
+                en: Show
+                de: Sichtbar
+            translate: true
+            type: toggle
+            width: 1/3
+          showTagsSingle:
+            default: true
+            label: Tags
+            text:
+              - 
+                en: Hide
+                de: Verborgen
+              - 
+                en: Show
+                de: Sichtbar
+            translate: true
+            type: toggle
+            width: 1/3
+          postRelated:
+            help: 
+              en: Show a collection of related posts at the bottom.
+              de: Zeigt verwandte Beiträge am Ende des Beitrags
+            label: 
+              en: Related posts
+              de: Verwandte Beiträge
+            text:
+              - Hide
+              - Show
+            translate: true
+            type: toggle
+          postRelatedTitle:
+            label: 
+              en: Related posts title
+              de: Verwandte Beiträge - Titel
+            type: text
+            when:
+              postRelated: true
+
+      - width: 1/3
+        sections:
+          content:
+            type: fields
+            fields:
+              cover: fields/cover
+          files:
+            headline: Files
+            type: files
+
+  eventform:
+    label:
+        en: Event Registration
+        de: Event Anmeldung
+    icon: users
+    columns:
+      - width: 2/3
+        sections:
+          formfields:
+            type: fields
+            extends: fields/form-fields
+      - width: 1/3
+        sections:
+          formSettings:
+            type: fields
+            extends: fields/form-settings
+            fields:
+              showTicketAmmountTitle:
+                type: text
+                default: Verfübare Tickets
+                label:
+                  en: available Tickets Label
+                  de: Verfügbare Tickets Bezeichner
+              eventNoTicketsTitle:
+                type: writer
+                label:
+                  en: Text when event is sold out
+                  de: Text falls Event ausverkauft
+
+  advanced:
+    extends: fields/advanced-fields

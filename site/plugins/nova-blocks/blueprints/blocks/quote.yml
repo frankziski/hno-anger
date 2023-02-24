@@ -1,0 +1,25 @@
+name: 
+  en: Quote
+  de: Zitat
+icon: quote
+preview: quote
+wysiwyg: true
+fields:
+  text:
+    label: Text
+    placeholder: Zitat...
+    type: writer
+    inline: true
+    icon: quote
+  citation:
+    label: Quelle
+    placeholder: Author...
+    type: writer
+    inline: true
+    icon: user
+  fontColor:
+    extends: fields/font-color
+    width: 1/1
+  line:
+    type: line
+  blocksettings: fields/blocksettings

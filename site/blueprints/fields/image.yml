@@ -1,0 +1,8 @@
+label: 
+  en: Image
+  de: Bild
+type: files
+multiple: false
+query: page.files.add(site.files).filterBy('template', 'image').sortBy('date', 'desc')
+layout: cards
+uploads: image

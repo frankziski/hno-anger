@@ -1,0 +1,128 @@
+title: 
+  en: Event
+  de: Veranstaltung
+
+status:
+  extends: sections/status
+
+columns:
+  - width: 2/3
+    fields:
+      blocks:
+        extends: fields/blocks-post
+  - width: 1/3
+    sections:
+      content:
+        type: fields
+        fields:
+          cover: fields/cover
+          eventdate:
+            default: now
+            label: 
+              en: Event Start Date
+              de: Event-Startdatum
+            translate: true
+            type: date
+            display: DD.MM.YYYY
+          eventdateend:
+            label: 
+              en: Event End Date
+              de: Event-Enddatum
+            translate: true
+            type: date
+            display: DD.MM.YYYY
+            help:
+              en: leave blank for one-day-events
+              de: Freilassen bei 1-Tages-Events
+          eventstart:
+            default: now
+            label: 
+              en: Event Start Time
+              de: Event-Startzeit
+            translate: true
+            type: time
+            display: HH:mm
+          eventend:
+            default: now
+            label: 
+              en: Event End Time
+              de: Event-Endzeit
+            translate: true
+            type: time
+            display: HH:mm
+          allowRegistration:
+            type: toggle
+            label:
+              en: allow registration
+              de: Anmeldung erlauben?
+            text:
+              - 
+                en: Inactive
+                de: Inaktiv
+              - 
+                en: Active
+                de: Aktiv
+            translate: true
+          availableTickets:
+            type: number
+            label:
+              en: Number of Tickets
+              de: Verfügbare Tickets
+            min: -1
+            when:
+              allowRegistration: true
+            help:
+              en: select -1 for infinite ammoun
+              de: -1 = unbegrenzt
+          showTicketAmmount:
+            type: toggle
+            label:
+              en: show available Tickets?
+              de: Verfügbare Tickets anzeigen?
+            text:
+              - 
+                en: Inactive
+                de: Inaktiv
+              - 
+                en: Active
+                de: Aktiv
+            translate: true
+            when:
+              allowRegistration: true
+            help:
+              en: if active, users can see how many tickets are left for this event
+              de: Nutzer sehen verfügbare Anzahl der Tickets wenn aktiv
+          line:
+            type: line
+          date:
+            default: now
+            label: 
+              en: Published
+              de: Veröffentlichungsdatum
+            translate: true
+            type: date
+          author:
+            default: false
+            help: 
+              en: Leave empty for "{{ site.title }}" as author.
+              de: Standard-Autor "{{ site.title }}"
+            label: 
+              en: Author
+              en: Autor
+            multiple: false
+            translate: true
+            type: users
+          tags:
+            label: Tags
+            icon: tag
+            type: multiselect
+            options: query
+            query: site.blogtags.split
+            default: Events
+
+      files:
+        headline: 
+          en: Files
+          de: Dateien
+        type: files
+        info: "{{ file.alt }}"

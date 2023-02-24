@@ -1,0 +1,9 @@
+empty: No posts yet
+headline: 
+  en: Posts
+  de: Beiträge
+info: "{{ page.date.toDate('M d, Y')  }} | {{ page.template }}"
+template:
+  - post
+  - event
+type: pages

@@ -1,0 +1,17 @@
+icon: markdown
+name: Markdown
+preview: markdown
+wysiwyg: true
+fields:
+  text:
+    label: Text
+    placeholder: Text...
+    type: textarea
+    files:
+      query: page.files.add(site.files).sortBy('date', 'desc')
+  fontColor:
+    extends: fields/font-color
+    width: 1/1
+  line:
+    type: line
+  blocksettings: fields/blocksettings

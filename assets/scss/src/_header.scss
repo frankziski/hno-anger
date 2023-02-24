@@ -1,0 +1,148 @@
+.nav-item {
+    .nav-link {
+        color: var(--color-white);
+        font-size: var(--font-size-nav);
+        padding: var(--space-05) var(--space-10);
+        font-weight: 700;
+        border-radius: var(--border-radius-buttons);
+        border: 2px solid transparent;
+
+        &:hover, &:focus {
+            color: var(--color-white);
+            background-color: rgba(255,255,255,0.2);
+        }
+    }
+
+    &.active {
+        .nav-link {
+            border-color: var(--color-white);
+        }
+    }
+}
+
+@include xlarge-up() {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: var(--space-10);
+        padding-right: var(--space-10);
+    }
+}
+
+.header-main {
+    position: absolute;
+    height: var(--navbar-height);
+    --button-size: 2rem;
+    z-index: 900;
+
+    .navbar {
+        width: 100%;
+        height: var(--navbar-height);
+        background: var(--color-primary);
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 0;
+        transition: all .4s ease-in-out;
+
+        &.scrolled:not(.up) {
+            top: calc(var(--navbar-height) * -1);
+            opacity: 0;
+        }
+
+        .container-fluid {
+            height: var(--navbar-height);
+            justify-content: flex-end;
+            flex-direction: row;
+
+            @include large-up {
+                max-width: var(--width-large);
+            }
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: var(--space-05) 0;
+        }
+
+        .icon {
+            margin: 0 var(--space-10);
+            cursor: pointer;
+            color: var(--color-white);
+
+            @include large {
+                margin: 0 var(--space-05);
+            }
+
+            svg {
+                width: var(--button-size);
+                height: var(--button-size);
+            }
+
+            &:hover {
+                color: var(--color-primary);
+            }
+        }
+    }
+
+    .navbar-brand {
+        height: calc(var(--navbar-height) * 0.8);
+        max-height: 48px;
+        margin-right: auto;
+
+        .svg-logo-holder {
+            height: 100%;
+
+            svg {
+                width: auto;
+                height: 100%;
+            }
+        }
+
+        img {
+            width: auto;
+            height: 100%;
+        }
+    }
+
+    .btn-appointment::after {
+      content: "Termin";
+    }
+
+    @include mobileSm {
+      .btn-appointment {
+        padding: var(--space-05) var(--space-10);
+        margin-right: var(--space-20);
+
+        span {
+          margin: 0 !important;
+          font-size: 2rem;
+        }
+      }
+
+      .btn-appointment::after {
+        content: "";
+      }
+    }
+}
+
+.offcanvas {
+    background: var(--color-primary);
+    z-index: 1050;
+
+    .offcanvas-header {
+        color: var(--color-white);
+        justify-content: flex-end;
+
+        .btn-close {
+            background: none;
+            width: auto;
+            height: auto;
+            opacity: 1;
+        }
+    }
+
+    .nav-item {
+        margin-bottom: var(--space-10);
+    }
+}

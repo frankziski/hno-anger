@@ -1,0 +1,6 @@
+title: Admin
+description: 
+  en: The admin has all rights.
+  de: Administratoren haben alle Rechte
+
+extends: users/default

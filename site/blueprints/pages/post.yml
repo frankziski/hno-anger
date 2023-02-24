@@ -1,0 +1,55 @@
+title: 
+  en: Post
+  de: Beitrag
+
+status:
+  extends: sections/status
+
+columns:
+  - width: 2/3
+    fields:
+      intro:
+        type: writer
+        label: Intro
+        help:
+          en: Intro Text, also used for teaser
+          de: Einführungstext, wird auch für Teaser genutzt
+      blocks:
+        extends: fields/blocks-post
+  - width: 1/3
+    sections:
+      content:
+        type: fields
+        fields:
+          date:
+            default: now
+            label: 
+              en: Published
+              de: Veröffentlichungsdatum
+            translate: true
+            type: date
+          author:
+            default: false
+            help: 
+              en: Leave empty for "{{ site.title }}" as author.
+              de: Standard-Autor "{{ site.title }}"
+            label: 
+              en: Author
+              en: Autor
+            multiple: false
+            translate: true
+            type: users
+          tags:
+            label: Tags
+            icon: tag
+            type: multiselect
+            options: query
+            query: site.blogtags.split
+          cover: fields/cover
+
+      files:
+        headline: 
+          en: Files
+          de: Dateien
+        type: files
+        info: "{{ file.alt }}"

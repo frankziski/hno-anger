@@ -1,0 +1,39 @@
+.form-wrapper {
+    width: 100%;
+    padding: var(--space-20);
+
+    .form-control-hidden {
+        left: -9999px;
+        position: absolute;
+    }
+
+    .page-title {
+        margin: var(--space-10) 0;
+    }
+}
+
+.honeypot,
+.uniform__potty {
+    left: -9999px;
+    position: absolute;
+}
+
+.error {
+    border: 1px solid var(--color-error) !important;
+}
+
+.form-message,
+.uniform-errors {
+    margin: var(--space-10);
+    padding: var(--space-20);
+    border-radius: var(--border-radius);
+    background-color: var(--color-grey);
+
+    &.success {
+        background-color: var(--color-success);
+    }
+}
+
+.uniform-errors {
+    background-color: var(--color-error);
+}

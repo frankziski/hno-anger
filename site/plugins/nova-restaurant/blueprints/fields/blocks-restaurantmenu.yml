@@ -1,0 +1,52 @@
+label: 
+  en: Layout - Menu
+  de: Layout - Speisekarte
+layouts:
+  - "1/1"
+  - "1/2, 1/2"
+  - "1/3, 1/3, 1/3"
+  - "1/4, 1/4, 1/4, 1/4"
+  - "1/3, 2/3"
+  - "2/3, 1/3"
+type: layout
+fieldsets: 
+  text:
+    label: Text
+    type: group
+    fieldsets:
+      text: blocks/text
+      button: blocks/button      
+      markdown: blocks/markdown
+      blurb: blocks/blurb
+      info: blocks/info
+      quote: blocks/quote      
+      table: blocks/table      
+  media:
+    label: Media
+    type: group
+    fieldsets:
+      gallery: blocks/gallery
+      image: blocks/image
+      carousel: blocks/carousel
+      video: blocks/video
+  misc:
+    label: Misc
+    type: group
+    fieldsets:
+      hero: blocks/hero
+      spacer: blocks/spacer
+      accordion: blocks/accordion
+      teaser: blocks/teaser
+      tabs: blocks/tabs
+      testimonial: blocks/testimonial
+      pricing: blocks/pricing
+      openingtimes: blocks/openingtimes
+      menusection: blocks/menusection
+  embeds:
+    label: Embeds
+    type: group
+    fieldsets:
+      form: blocks/form
+      posts: blocks/posts
+      videoembed: blocks/videoembed
+      cookiesettings: blocks/cookiesettings

@@ -1,0 +1,8 @@
+type: group
+fields:
+  alignContent: fields/align-content
+  alignBlock: fields/align-block
+  width: fields/width
+  background: fields/block-background
+  bsline:
+    type: line

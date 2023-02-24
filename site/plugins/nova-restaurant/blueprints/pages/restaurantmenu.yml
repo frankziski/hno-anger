@@ -1,0 +1,90 @@
+title: 
+  en: Restaurnat-Menu-Page
+  de: Speisekarten-Seite
+image:
+  back: gray-800
+  icon: food
+
+options:
+  changeSlug:
+    admin: true
+    author: false
+    editor: true
+  changeStatus:
+    admin: true
+    author: false
+    editor: true
+  changeTitle:
+    admin: true
+    author: false
+    editor: true
+  create:
+    admin: true
+    author: false
+    editor: true
+  delete:
+    admin: true
+    author: false
+    editor: true
+  duplicate:
+    admin: true
+    author: false
+    editor: true
+  update:
+    admin: true
+    author: false
+    editor: true
+
+status:
+  extends: sections/status
+
+tabs:
+  content:
+    label:
+      en: Content
+      de: Inhalt
+    icon: text
+    fields:
+      blocks: fields/layout-restaurantmenu
+
+  filestab:
+    label:
+        en: files
+        de: Dateien
+    icon: image
+    sections:
+      files:
+        headline: 
+          en: Files
+          de: Dateien
+        sortBy: date desc
+        type: files
+        layout: cards
+        info: "{{ file.alt }}"
+
+  additivestab:
+    label:
+      en: Additives
+      de: Zusatzstoffe
+    icon: info
+    fields:
+      additives:
+        label:
+          en: Additives
+          de: Zusatzstoffe
+        type: structure
+        fields:
+          additiveId:
+            label: ID
+            type: number
+            min: 1
+            step: 1
+            help:
+              en: unique number to identificate | should be equal to the item position
+              de: Einzigartige Nummer zur Identifizierung | sollte der Position der Zeile entsprechen
+          additiveName:
+            label: Name
+            type: text
+
+  advanced:
+    extends: fields/advanced-fields

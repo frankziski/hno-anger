@@ -1,0 +1,11 @@
+icon: settings
+name: 
+  en: cookiesettings
+  de: Cookie-Einstellungen
+fields:
+  info:
+    label: Info
+    text: 
+      en: Shows the users active cookie settings.
+      de: Zeigt die Cookie-Einstellungen des Nutzers an.
+    type: info

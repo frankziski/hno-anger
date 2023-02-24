@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="search-icon" transform="translate(208 -780)">
+    <rect id="Rechteck_10" data-name="Rechteck 10" width="48" height="48" transform="translate(-208 780)" fill="none"/>
+    <g id="search" transform="translate(-197 791)">
+      <path id="Ellipse_6" data-name="Ellipse 6" d="M8.889-1A9.889,9.889,0,1,1-1,8.889,9.9,9.9,0,0,1,8.889-1Zm0,17.778A7.889,7.889,0,1,0,1,8.889,7.9,7.9,0,0,0,8.889,16.778Z" transform="translate(3 3)"/>
+      <path id="Linie_9" data-name="Linie 9" d="M4.833,5.833a1,1,0,0,1-.707-.293L-.707.707a1,1,0,0,1,0-1.414,1,1,0,0,1,1.414,0L5.54,4.126a1,1,0,0,1-.707,1.707Z" transform="translate(18.167 18.167)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+label: 
+  en: Content align
+  de: Inhalt-Ausrichtung 
+type: multi-toggle
+default: left
+textLabels: false
+equalize: true
+options:
+  - value: left
+    text: 
+      en: Left
+      de: Links
+    icon: text-left
+  - value: center
+    text: 
+      en: Center
+      de: Zentriert
+    icon: text-center
+  - value: right
+    text: 
+      en: Right
+      de: Rechts
+    icon: text-right
+translate: false
+width: 1/3

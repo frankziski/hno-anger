@@ -1,0 +1,102 @@
+icon: page
+name: 
+  en: Blog-Posts
+  de: Blog-Beiträge
+preview: posts
+fields:
+  heading: fields/heading
+  headinglevel: fields/headinglevel
+  source:
+    label: 
+      en: Source
+      de: Quelle
+    type: pages
+    multiple: false
+    options: query
+    query: site.index.template('blog').sortBy('title')
+    width: 1/3
+  sort:
+    default: date
+    empty: false
+    label: 
+      en: Sort
+      de: Sortierung
+    options:
+      none: 
+        en: None
+        de: Keine
+      date: 
+        en: Date
+        de: Datum
+      random: 
+        en: Random
+        de: Zufällig
+    type: select
+    width: 1/3
+  numberOfPosts:
+    label: 
+      en: Number of posts
+      de: Anzahl der Beiträge
+    placeholder: 3
+    default: 3
+    step: 1
+    type: number
+    width: 1/3
+  showAs:
+    label: Anzeigen als
+    type: multi-toggle
+    equalize: true
+    options:
+      list:
+        en: List
+        de: Liste
+      teaser:
+        en: Teaser
+        de: Teaser
+  tags:
+    label: 
+      en: Filter by tags
+      de: Nach Tags filtern
+    type: multiselect
+    options: query
+    query: site.find('blog').blogtags.split
+  emptyText:
+    label: 
+      en: Empty -Text
+      de: Text wenn leer
+    default: Keine Beiträge gefunden
+    type: writer
+  readMore:
+    extends: fields/Toggler
+    label: 
+      en: Read more
+      de: Weiterlesen
+  readMoreText:
+    label: 
+      en: Read more text
+      de: Weiterlesen - Text
+    placeholder: Read More
+    type: text
+    when:
+      readMore: true
+  visitAll:
+    extends: fields/Toggler
+    label: 
+      en: All-Button
+      de: Alle-Button
+  visitAllText:
+    label: 
+      en: All Button Text
+      de: Alle-Button Text
+    placeholder: Alle Beiträge
+    type: text
+    when:
+      visitAll: true
+  line:
+    type: line
+  alignContent:
+    extends: fields/align-content
+  alignBlock:
+    extends: fields/align-block
+  width:
+    extends: fields/width

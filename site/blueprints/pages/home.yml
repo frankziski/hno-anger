@@ -1,0 +1,52 @@
+title: 
+  en: Homepage
+  de: Startseite
+
+image:
+  back: black
+  icon: home
+
+options:
+  changeSlug: false
+  changeStatus: false
+  changeTitle:
+    admin: true
+    author: false
+    editor: true
+  create: false
+  delete: false
+  duplicate: false
+  update:
+    admin: true
+    author: false
+    editor: true
+
+status:
+  extends: sections/status
+
+tabs:
+  content:
+    label:
+      en: Content
+      de: Inhalt
+    icon: text
+    fields:
+      blocks: fields/layout
+
+  filestab:
+    label:
+        en: files
+        de: Dateien
+    icon: image
+    sections:
+      files:
+        headline: 
+          en: Files
+          de: Dateien
+        sortBy: date desc
+        type: files
+        layout: cards
+        info: "{{ file.alt }}"
+
+  advanced:
+    extends: fields/advanced-fields

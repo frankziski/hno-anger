@@ -1,0 +1,21 @@
+draft:
+  label: 
+    en: Draft
+    de: Entwurf
+  text: 
+    en: The page is in draft mode and only visible for logged in editors.
+    de: Entwurfsmodus. Diese Seite ist nur für eingeloggte Editoren sichtbar.
+unlisted:
+  label: 
+    en: Unlisted
+    de: Ungelistet
+  text: 
+    en: The page is public and accessible via URL.
+    de: Die Seite ist veröffentlicht und über ihre URL erreichbar.
+listed:
+  label: 
+    en: Listed
+    de: Gelistet
+  text: 
+    en: The page is public and added to the main menu.
+    de: Die Seite ist veröffentlich und im Hauptmenü verlinkt

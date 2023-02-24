@@ -1,0 +1,13 @@
+icon: expand
+name: 
+  en: Spacer
+  de: Abstandshalter
+preview: spacer
+wysiwyg: true
+fields:
+  info:
+    label: Info
+    text: 
+      en: This block just adds some invisible space, there are no settings available.
+      de: Fügt einen Abstand zwischen zwei Blöcken ein. Keine Einstellungen nötig.
+    type: info

@@ -1,0 +1,45 @@
+Title: Online Terminvergabe
+
+----
+
+Blocks: [{"attrs":{"width":"full","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":[],"id":"8c773b91-3928-46de-a858-37c091e33fea","isHidden":false,"type":"spacer"},{"content":{"text":"<h1>Online Terminvergabe<\/h1>","fontcolor":"primary","aligncontent":"center","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"66f1c68d-0832-41b8-b5d4-93e35de45c85","isHidden":false,"type":"text"}],"id":"a3b054d4-6bf4-4b77-8308-49dbb9c5274c","width":"1\/1"}],"id":"2cc1f1b9-79c9-4a07-861e-546c7ae6d22f"},{"attrs":{"width":"medium","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":{"text":"<p><strong>Patienten mit akuten Beschwerden k\u00f6nnen sich gern ohne Termin in unserer Praxis vorstellen. Wir bem\u00fchen uns, Sie entsprechend der Dringlichkeit rasch zu behandeln. Bitte planen Sie eine Wartezeit mit ein.<\/strong><\/p>","fontcolor":"normal","aligncontent":"center","alignblock":"","width":"","bgenabled":"false","bgtype":"","color":"","backgroundimage":[],"positionhorizontal":"","positionvertical":"","backgroundsize":""},"id":"56aaf462-6d85-46ce-9da9-65fcf2c74709","isHidden":false,"type":"text"}],"id":"3d100f67-c813-41e4-b7d0-0d932ecf50ea","width":"1\/1"}],"id":"85d56ed2-cc15-4618-97d4-c5edda30af4c"},{"attrs":{"width":"large","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":{"url":"<iframe style='width: 100%; height: auto; min-height: 70vh; max-height: 90vh' frameborder='0' src='https:\/\/app.arzt-direkt.de\/hno-am-anger\/booking'><\/iframe>","aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"366478eb-79de-40a1-95ef-664ad79cb017","isHidden":false,"type":"iframe"}],"id":"3d07826d-e02a-4685-9890-a1607a490590","width":"1\/1"}],"id":"7204239b-9f8d-4d14-913f-96debe251164"},{"attrs":{"width":"full","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":[],"id":"17f0eb24-cfe0-47b2-ab7b-302b83ffc356","isHidden":false,"type":"spacer"}],"id":"a82ff5ae-8ab3-4931-b844-a84e8649e014","width":"1\/1"}],"id":"a6ea866e-12f0-4875-9cd3-cb579ca0214a"}]
+
+----
+
+Pagetitle: 
+
+----
+
+Keywords: 
+
+----
+
+Description: 
+
+----
+
+Cover: 
+
+----
+
+Excludefromsitemap: false
+
+----
+
+Date: 2023-02-15
+
+----
+
+Customcss: 
+
+----
+
+Codeheader: 
+
+----
+
+Codefooter: 
+
+----
+
+Uuid: Imn7nBgFOLvVWjjN

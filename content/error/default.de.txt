@@ -1,0 +1,109 @@
+Title: Error
+
+----
+
+Blocks: [{"attrs":{"width":"full","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":{"text":"<h1>404<\/h1>","fontcolor":"normal","aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"fef0df39-b33f-4d58-924f-a9ffca1ae41d","isHidden":false,"type":"text"}],"id":"84342d2e-8804-4f4b-8e4f-c50c496f9994","width":"1\/1"}],"id":"fa4b1127-38fb-4618-aff1-f0bb07b27c89"}]
+
+----
+
+Pagetitle: 
+
+----
+
+Keywords: 
+
+----
+
+Description: 
+
+----
+
+Cover: 
+
+----
+
+Excludefromsitemap: false
+
+----
+
+Date: 
+
+----
+
+Customcss: 
+
+----
+
+Codeheader: 
+
+----
+
+Codefooter: 
+
+----
+
+Heroheading: 404
+
+----
+
+Heroheadingfontsize: hero
+
+----
+
+Herotext: <p>Sorry, we can't find what you're looking for.</p>
+
+----
+
+Herobuttons: 
+
+----
+
+Heroblocks: []
+
+----
+
+Herobackground:
+
+- 
+  type: gradient
+  size: full-width
+  color: [ ]
+  gradient:
+    - 
+      fill: light
+      customstart: ""
+      customend: ""
+      angle: 180
+      brightness: 'false'
+  image: [ ]
+  svg: [ ]
+  border: 'false'
+  shadow: none
+
+----
+
+Herocolumns: 1
+
+----
+
+Herocolumnwidth: equal
+
+----
+
+Heroalign: center
+
+----
+
+Herowidth: sm
+
+----
+
+Heropaddingtop: false
+
+----
+
+Heropaddingbottom: true
+
+----
+
+Uuid: t04odzjhv9CALNPS

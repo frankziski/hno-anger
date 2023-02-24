@@ -1,0 +1,70 @@
+icon: dashboard
+name: 
+  en: Gallery
+  de: Galerie
+preview: gallery
+fields:
+  media:
+    label: 
+      en: images
+      de: Bilder
+    query: page.files.add(site.files).filterBy('template', 'image').sortBy('date', 'desc')
+    type: files
+    uploads: image
+  columns:
+    default: '4'
+    empty: false
+    label: 
+      en: Columns
+      de: Spalten
+    options:
+      col-lg-12: 1 Spalte
+      col-lg-6: 2 Spalten
+      col-lg-4: 3 Spalten
+      col-lg-3: 4 Spalten
+      col-lg-2: 6 Spalten
+    type: select
+    width: 1/2
+  columnsResponsive:
+    default: '2'
+    empty: false
+    label: 
+      en: Columns on mobile
+      de: Mobile - Spalten
+    options:
+      col-12: 1 Spalte
+      col-6: 2 Spalten
+      col-4: 3 Spalten
+    type: select
+    width: 1/2
+  gutter:
+    default: true
+    label: 
+      en: Gutter
+      de: Abstand dazwischen
+    text:
+      - 
+        en: Inactive
+        de: Inaktiv
+      - 
+        en: Active
+        de: Aktiv
+    type: toggle
+    width: 1/2
+  lightbox:
+    default: true
+    label: 
+      en: Allow Zoom
+      de: Zoom auf Klick
+    text:
+      - 
+        en: Inactive
+        de: Inaktiv
+      - 
+        en: Active
+        de: Aktiv
+    type: toggle
+    width: 1/2
+  line:
+    type: line
+  blocksettings: fields/blocksettings

@@ -1,0 +1,110 @@
+:root {
+    // Font Sizes
+    --base-size: 16px;
+    --font-size: 1.25rem;
+    --font-size-small: .75rem;
+    --font-size-h1: 3.0rem;
+    --font-size-h2: 2.5rem;
+    --font-size-h3: 2.0rem;
+    --font-size-h4: 1.5rem;
+    --font-size-h5: 1.0rem;
+    --font-size-h6: .75rem;
+
+    --font-size-nav: 1.25rem;
+
+    @include large {
+        --font-size-h1: 2.8rem;
+        --font-size-h2: 2.2rem;
+        --font-size-h3: 1.8rem;
+        --font-size-h4: 1.3rem;
+    }
+
+    @include mobileSm {
+        --font-size-h1: 2.5rem;
+        --font-size-h2: 2.0rem;
+        --font-size-h3: 1.5rem;
+        --font-size-h4: 1.2rem;
+    }
+
+    // Typography
+    --font-stack: 'Open Sans', sans-serif;
+    --font-stack-hl: 'Chillax-Medium', sans-serif;
+    --font-stack-hl-bold: 'Chillax-Bold', sans-serif;
+
+    // Colors
+    --color-primary: #8C3D17;
+    --color-secondary: #3D3D3B;
+
+    --color-text: #3D3D3B;
+    --color-dark-grey: #3D3D3B;
+    --color-grey: #f5f5f5;
+    --color-grey-button: #ebebeb;
+    --color-white: #fff;
+    --color-black: #000;
+
+    --color-error: #C34A36;
+    --color-error-bg: #f3dbd7;
+
+    --color-success: #00C9A7;
+    --color-success-bg: #ccf4ed;
+
+    --color-warning: #e67337;
+    --color-warning-bg: #fae3d7;
+
+    --color-glow: rgba(0, 180, 216, .3);
+
+    // Sizes
+    --navbar-height: 80px;
+
+    --width-large: 80%;
+    --width-medium: 60%;
+    --width-small: 40%;
+
+    // Spacing
+    --space-025: 0.25rem; //4px
+    --space-05: 0.5rem; // 8px
+    --space-075: 0.75rem; // 12px
+    --space-10: 1.0rem; // 16px
+    --space-15: 1.5rem; // 24px
+    --space-20: 2.0rem; // 32px
+    --space-30: 3.0rem; // 48px
+    --space-40: 4.0rem; // 64px
+
+    --padding-vert: 2rem; // 32px
+    --padding-hor: 1rem; // 16px
+    --margin-blocks: 3rem; // 48px
+
+    @include large {
+        --space-025: 0.20rem;
+        --space-05: 0.4rem;
+        --space-075: 0.6rem;
+        --space-10: 0.9rem;
+        --space-15: 1.25rem;
+        --space-20: 1.5rem;
+        --space-30: 2.0rem;
+
+        --margin-blocks: 2rem;
+    }
+
+    @include mobileSm {
+        --space-05: 0.25rem;
+        --space-075: 0.5rem;
+        --space-10: 0.75rem;
+        --space-15: 1.0rem;
+        --space-20: 1.25rem;
+        --space-30: 1.5rem;
+
+        --padding-vert: 1rem;
+        --padding-hor: .5rem;
+        --margin-blocks: 1rem;
+    }
+
+    // Misc
+    --border-radius: 0;
+    --border-radius-buttons: 8px;
+
+    // Bootstrap Overrides
+    --bs-font-sans-serif: var(--font-stack);
+    --bs-body-color: var(--color-text);
+    --bs-body-font-size: var(--font-size);
+}

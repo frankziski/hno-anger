@@ -1,0 +1,45 @@
+Title: Dr. med. Marlen Fabris
+
+----
+
+Blocks: [{"attrs":{"width":"small","alignvertical":"align-items-center","padding":"padding-bottom, padding-top","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-doc-opening-img"},"columns":[{"blocks":[{"content":{"source":["file:\/\/tJyvOw3q3E77eRXC"],"showlightbox":"false","linkfield":[],"aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"e1494aaf-f9b7-4963-8dc4-89b89e90d477","isHidden":false,"type":"image"}],"id":"83008b87-58eb-49af-bc8c-a18620fa471a","width":"1\/1"}],"id":"79610447-50e0-4fcf-b9c7-14cb18ca3e8e"},{"attrs":{"width":"small","alignvertical":"align-items-center","padding":"padding-top, padding-bottom","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-doc-name"},"columns":[{"blocks":[{"content":{"text":"<h1>Dr. med. Marlen Fabris<\/h1>","fontcolor":"primary","aligncontent":"center","alignblock":"","width":"","bgenabled":"false","bgtype":"","color":"","backgroundimage":[],"positionhorizontal":"","positionvertical":"","backgroundsize":""},"id":"03ff0150-2462-45ee-a38b-80bc0bcee426","isHidden":false,"type":"text"}],"id":"f8d43d16-7a87-4895-bc1b-188339ac526e","width":"1\/1"}],"id":"7063e5a4-be32-4233-9173-3ff71749db77"},{"attrs":{"width":"small","alignvertical":"align-items-center","padding":"padding-top, padding-bottom","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-doc-vita"},"columns":[{"blocks":[{"content":{"heading":"","level":"h2","dlist":[{"dt":"2002-2009","dd":"<p>Studium der Humanmedizin an der Friedrich-Schiller-Universit\u00e4t Jena<\/p>"},{"dt":"2009","dd":"<p>Abschluss des Promotionsverfahrens und Erlangung des akademischen Grad des \u201edoctor medicinae\u201c mit der Dissertation: \u201eDurchflusszytometrische Beurteilung der quantativen Verteilung endothelialer Stammzellen in Abh\u00e4ngigkeit von dem Schweregrad der Herzinsuffizienz\u201c Friedrich-Schiller-Universit\u00e4t Jena Abschlussnote: summa cum laude<\/p>"},{"dt":"<p>2009-2018<\/p>","dd":"<p>Facharztausbildung an der Klinik f\u00fcr Hals-Nasen-Ohren Heilkunde des Helios Klinikums Erfurt<\/p>"},{"dt":"<p>2018<\/p>","dd":"<p>Nach Abschlusspr\u00fcfung Erlangen des Facharztes f\u00fcr Hals-Nasen-Ohren-Heilkunde<\/p>"},{"dt":"<p>2018-2020<\/p>","dd":"<p>T\u00e4tigkeit als Fach\u00e4rztin an der Klinik f\u00fcr Hals-Nasen-Ohren-Heilkunde am Helios Klinikum Erfurt<\/p>"},{"dt":"<p>2019-2020<\/p>","dd":"<p>Anstellung als Fach\u00e4rztin f\u00fcr HNO-Heilkunde in der HNO-Praxis Dr. Chr. Bormann f\u00fcr die Freitagsprechstunde in der Bahnhofstra\u00dfe 2, 99084 Erfurt<\/p>"},{"dt":"<p>01\/2021-03\/2022<\/p>","dd":"<p>F\u00fchrung der HNO-Gemeinschaftspraxis Bahnshofstra\u00dfe 2, 99084 Erfurt zusammen mit Dr. med. Chr. Bormann<\/p>"},{"dt":"<p>seit 04\/2022<\/p>","dd":"<p>Aus\u00fcbung der HNO Gemeinschaftspraxis -HNO am Angerzusammen mit Frau Dr. med. Anne Heuschkel<\/p>"}],"orientation":"vertical","fontcolor":"normal","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","aligncontent":"left","alignblock":"left","width":"full"},"id":"0f590b10-a0b6-468b-aabc-2ef3f34e47ba","isHidden":false,"type":"openingtimes"}],"id":"b35016d1-692a-4849-9629-e57f574efdbc","width":"1\/1"}],"id":"b60bf4e2-d8c1-49d5-8c81-b0fad4bca009"},{"attrs":{"width":"small","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-doc-line"},"columns":[{"blocks":[],"id":"caf05448-6103-4fa5-9291-6fc0ec7471ea","width":"1\/1"}],"id":"ed36f03c-bb20-455c-94ce-32fa4577fa02"},{"attrs":{"width":"small","alignvertical":"align-items-center","padding":"padding-top, padding-bottom","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-doc-memberships"},"columns":[{"blocks":[{"content":{"heading":"","level":"h2","dlist":[{"dt":"<p>Mitgliedschaften<\/p>","dd":"<p>Mitglied in der deutschen Gesellschaft f\u00fcr Hals-, Nasen-, Ohrenheilkunde und Kopf- und Halschirurgie e.V. Mitglied im Deutschen Berufsverband der HNO \u00c4rzte e.V.<\/p>"}],"orientation":"vertical","fontcolor":"normal","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","aligncontent":"left","alignblock":"left","width":"full"},"id":"f42041a0-ac89-4c0f-9340-8119f567080e","isHidden":false,"type":"openingtimes"}],"id":"9ae1ba20-e255-49e6-aab0-173c7f826bcd","width":"1\/1"}],"id":"f07d1628-4b07-484a-bf78-57740be32d6e"},{"attrs":{"width":"full","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":[],"id":"c6eb6e37-9cda-4448-8321-3d71864f5729","isHidden":false,"type":"spacer"}],"id":"46178f38-ac16-4188-b2af-d1831a6fe95e","width":"1\/1"}],"id":"b44887e9-a02b-4055-a2e0-4f05f42ea27b"}]
+
+----
+
+Pagetitle: 
+
+----
+
+Keywords: 
+
+----
+
+Description: 
+
+----
+
+Cover: 
+
+----
+
+Excludefromsitemap: false
+
+----
+
+Date: 2023-02-15
+
+----
+
+Customcss: 
+
+----
+
+Codeheader: 
+
+----
+
+Codefooter: 
+
+----
+
+Uuid: eIXuEPg6rFjs7Yde

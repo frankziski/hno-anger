@@ -1,0 +1,506 @@
+.section-home-hero {
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.section-home-logo-intro {
+  .row {
+    margin-top: -5rem;
+    border-radius: 34px;
+    padding: 5rem 2.5rem;
+    background-color: rgb(255, 255, 255, 0.7);
+    -webkit-backdrop-filter: blur(23px);
+    backdrop-filter: blur(23px);
+
+  }
+
+  .block-type-image {
+    margin-bottom: var(--space-40);
+
+    @include large {
+      max-width: 50%;
+    }
+
+    @include mobileSm {
+      max-width: 70%;
+    }
+  }
+}
+
+.iframe-wrapper {
+  width: 100%;
+  iframe {
+    width: 100%;
+  }
+}
+
+.card {
+    height: 100%;
+    border-radius: var(--border-radius);
+
+    .card-img {
+        border-top-left-radius: var(--border-radius);
+        border-top-right-radius: var(--border-radius);
+
+        img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: var(--border-radius);
+            border-top-right-radius: var(--border-radius);
+        }
+    }
+}
+
+.preview-content {
+    .col-md-6:first-child {
+        @include medium-up {
+            .block-type-text {
+                padding-right: 4rem;
+
+                .text-wrapper  {
+                    text-align: right;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.block-type-spacer {
+    padding: var(--space-20);
+}
+
+.block-type-text + .block-type-button {
+  margin-top: var(--space-20);
+}
+
+#intro {
+    img {
+        max-height: 200px;
+    }
+}
+
+.section-contact,
+.section-contact-opening-hours {
+  .block-type-text:first-child {
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        p{
+          display: flex;
+          gap: var(--space-10);
+
+          a,
+          a:link,
+          a:visited {
+            color: var(--color-text-color);
+            border-bottom: none;
+          }
+        }
+      }
+
+      li:first-child {
+        p::before {
+          font-family: 'Material Icons Outlined';
+          content: '\e0c8';
+          font-size: var(--font-size);
+        }
+
+      }
+
+      li:nth-child(2) {
+        p::before {
+          font-family: 'Material Icons Outlined';
+          content: '\e0b0';
+          font-size: var(--font-size);
+        }
+      }
+
+      li:nth-child(3) {
+        p::before {
+          font-family: 'Material Icons Outlined';
+          content: '\e8ad';
+          font-size: var(--font-size);
+        }
+      }
+
+      li:nth-child(4) {
+        p::before {
+          font-family: 'Material Icons Outlined';
+          content: '\e158';
+          font-size: var(--font-size);
+        }
+      }
+    }
+  }
+
+  .block-type-text:nth-child(2) {
+    margin-bottom: var(--space-10);
+  }
+
+  .block-type-button:nth-child(3) {
+    margin-bottom: var(--space-10);
+  }
+
+  .block-type-openingtimes {
+    .opening-times-wrapper {
+      position: relative;
+      color: var(--color-white);
+      background-color: var(--color-dark-grey);
+      padding: var(--space-30) var(--space-20) var(--space-20);
+      border-radius: 24px;
+      text-align: center;
+
+      dl {
+        column-gap: 0;
+        dt {
+          font-weight: 400;
+        }
+      }
+
+      dt:nth-last-child(2) {
+        border: none;
+      }
+      dd:nth-last-child(1) {
+        border: none;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        background-image: url('../img/icon-sprechzeiten.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: 0%;
+        left: 50%;
+        height: 5rem;
+        width: 5rem;
+        transform: translate(-50%, -50%);
+      }
+
+    }
+  }
+}
+
+.section-location-heading {
+  h2 {
+    font-size: var(--font-size-h1);
+  }
+}
+
+.section-location-address {
+  .block-col:first-child {
+    p {
+        font-size: calc(var(--base-size) * 2);
+    }
+  }
+}
+
+.section-offers-heading {
+  h2 {
+    font-size: var(--font-size-h1);
+  }
+}
+
+.section-offers {
+  h3 {
+    text-transform: none;
+  }
+
+  .btn-style-tertiary {
+    width: 75%;
+  }
+
+  .block-col {
+    .block-type-button {
+      justify-content: flex-end;
+    }
+  }
+}
+
+.section-office-opener {
+  .container-fluid:first-child {
+    height: 100%;
+  }
+
+  .block-col:last-child {
+    background-color: rgb(255, 255, 255, 0.8);
+    backdrop-filter: blur(23px);
+    -webkit-backdrop-filter: blur(23px);
+
+    .block {
+      flex: 0 1 auto;
+      margin-bottom: var(--space-10);
+    }
+  }
+}
+
+.main-team {
+  .block-type-image {
+    img {
+      border-radius: 24px;
+    }
+
+    overflow: hidden;
+  }
+
+  .section-team-docs {
+    h3 {
+      text-transform: none;
+    }
+    .block:not(:last-child) {
+      margin-bottom: var(--space-10);
+    }
+
+    .block-type-openingtimes {
+      .opening-times-wrapper {
+        position: relative;
+        background-color: var(--color-white);
+        padding: var(--space-30) var(--space-10) var(--space-20);
+        border-radius: 24px;
+        text-align: center;
+
+        dl {
+          dt {
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    .block-col {
+      align-self: stretch;
+      display: flex;
+      flex-direction: column;
+
+      .block:last-child {
+        margin-top: -5rem;
+        flex: 1 0 auto;
+        .opening-times-wrapper {
+          flex: 1 0 auto;
+          max-width: 80%;
+          margin: 0 auto;
+        }
+      }
+    }
+
+    .block-col:last-child {
+      .block:last-child {
+        dl::after {
+          grid-column: span 2;
+          justify-self: flex-end;
+          content: "* Spezialsprechstunde Ästhetik";
+        }
+      }
+    }
+  }
+}
+
+.section-team-support {
+  .block-type-text {
+    padding-bottom: var(--space-10);
+  }
+}
+
+.section-doc-opening-img {
+  .block-type-image {
+    border-radius: 24px;
+    overflow: hidden;
+  }
+}
+
+.section-doc-name {
+  h1 {
+    text-transform: none;
+  }
+}
+
+.section-doc-vita,
+.section-doc-memberships {
+  .opening-times-wrapper {
+    dd {
+      text-align: left !important;
+      border: none !important;
+    }
+
+    dt {
+      border: none !important;
+    }
+  }
+}
+
+.section-doc-vita {
+  .row {
+    position: relative;
+  }
+  .row::after {
+    content: "";
+    background-image: url("../img/icon-stethoskop.svg");
+    background-size: contain;
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+
+  }
+}
+
+.section-doc-line {
+  .row::before {
+    content: '';
+    border-top: 1px solid var(--color-text);
+    width: 100%;
+  }
+}
+
+.section-office-opener {
+  height: 100vh;
+  overflow: hidden;
+  .container-fluid {
+    padding: 0 0;
+
+    .block-col:last-child {
+      margin-left: calc(var(--space-30) * -2);
+    }
+  }
+}
+
+.section-offer-heading {
+  h2 {
+    text-transform: none;
+  }
+}
+
+.section-get-in-touch {
+  .block-type-button {
+    margin-top: var(--space-20);
+  }
+}
+
+.section-team-docs {
+  .opening-times-wrapper {
+    .title {
+      @include h4;
+      margin-top: 0;
+    }
+  }
+}
+
+@include medium {
+  .btn {
+    padding: 1rem 0.5rem
+  }
+
+  .section-home-hero {
+    .hero-backdrop {
+      height: calc(var(--vh, 1vh)*50) !important;
+    }
+  }
+
+  .section-home-logo-intro {
+    margin-left: var(--space-10);
+    margin-right: var(--space-10);
+
+    .row {
+      padding: 4rem 1.5rem;
+
+      .block-col:last-child {
+        .block:last-child {
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+
+  .section-contact-opening-hours {
+    .row {
+      margin-left: 1rem;
+      margin-right: 1rem;
+
+      .block-col:first-child {
+        .block:first-child {
+          margin-bottom: var(--space-20);
+        }
+      }
+
+      .block-col:last-child {
+        margin-top: calc(var(--space-30) * 3);
+      }
+    }
+  }
+
+  .section-location-heading,
+  .section-location-address,
+  .section-location-map {
+    .row {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+
+  .section-location-address {
+    .block-col {
+      margin-bottom: var(--space-10);
+    }
+  }
+
+  .section-offers {
+    .block-type-text {
+      margin-bottom: var(--space-20);
+    }
+  }
+
+  .section-office-opener {
+    .container-fluid {
+      padding-left: var(--bs-gutter-x, 0.75rem);
+      padding-right: var(--bs-gutter-x, 0.75rem);
+    }
+    .block-col:last-child {
+      margin-left: 0 !important;
+      transform: none !important;
+    }
+
+    .block-type-button {
+      margin-top: var(--space-20);
+      align-items: center;
+    }
+  }
+
+  .section-team-docs {
+    .block-col {
+      margin-bottom: calc(var(--space-30) * 2);
+    }
+  }
+
+  .section-team-support {
+    .row {
+      padding: 0 0;
+    }
+    .block-col {
+      margin-bottom: var(--space-30);
+    }
+  }
+
+  .section-botox-info {
+    .block-col:last-child {
+      margin-bottom: var(--space-30);
+    }
+
+    .block-type-button {
+      align-items: center;
+    }
+  }
+
+  .section-contact {
+    .block-col:first-child {
+      margin-bottom: var(--space-30);
+    }
+  }
+}

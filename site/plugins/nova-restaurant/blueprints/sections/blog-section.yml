@@ -1,0 +1,10 @@
+type: pages
+headline: 
+  en: Articles
+  de: Artikel
+empty: 
+  en: No posts yet
+  de: noch keine Beiträge
+info: "{{ page.published.toDate('%d.%m.%Y')  }}"
+parent: site.find("blog")
+template: article

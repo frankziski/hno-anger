@@ -1,0 +1,11 @@
+icon: bolt
+name: Button
+preview: button
+fields:
+  linkfield:
+    extends: fields/linkfield
+    label: Button(s)
+    max: 10
+  line:
+    type: line
+  blocksettings: fields/blocksettings

@@ -1,0 +1,71 @@
+.bg-cover {
+    background-origin: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -o-object-fit: cover;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg-img-pos-hor-center {
+    background-position-x: center;
+}
+.bg-img-pos-hor-left {
+    background-position-x: left;
+}
+.bg-img-pos-hor-right {
+    background-position-x: right;
+}
+.bg-img-pos-vert-center {
+    background-position-y: center;
+}
+.bg-img-pos-vert-top {
+    background-position-y: top;
+}
+.bg-img-pos-vert-bottom {
+    background-position-y: bottom;
+}
+
+.bg-svg {
+    bottom: 0;
+    height: 100%;
+    left: -1px;
+    position: absolute;
+    right: -1px;
+    top: 0;
+    width: calc(100% + 2px);
+    z-index: -3;
+}
+.bg-svg svg {
+    position: absolute;
+    opacity: .2;
+}
+
+.bg-svg-pos-vert-top svg {
+    top: 0;
+}
+.bg-svg-pos-vert-bottom svg {
+    bottom: 0;
+}
+.bg-svg-pos-hor-left svg {
+    left: -1px;
+}
+.bg-svg-pos-hor-right svg {
+    right: -1px;
+}
+.bg-svg-pos-vert-center:not(.bg-svg-pos-hor-center) svg{
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bg-svg-pos-hor-center:not(.bg-svg-pos-vert-center) svg{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bg-svg-pos-hor-center.bg-svg-pos-vert-center svg{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,133 @@
+icon: template
+name: 
+  en: Pricing
+  de: Preise
+preview: pricing
+wysiwyg: true
+fields:
+  iconType:
+    default: image
+    empty: false
+    label: Icon
+    options:
+      image: 
+        en: Image
+        de: Bild
+      svg: SVG
+    type: select
+    width: 1/2
+  iconImage:
+    label: 
+      en: Image
+      de: Bild
+    max: 1
+    query: page.files.add(site.files).filterBy('template', 'image').sortBy('date', 'desc')
+    type: files
+    uploads: image
+    when:
+      iconType: image
+    width: 1/2
+  iconSvg:
+    label: Code
+    placeholder: <svg>...</svg>
+    type: text
+    when:
+      iconType: svg
+    width: 1/2
+  heading:
+    inline: true
+    label: 
+      en: Heading
+      de: Headline
+    marks:
+      - bold
+      - italic
+      - strike
+      - underline
+    placeholder: Headline...
+    type: writer
+    width: 2/4
+  price:
+    inline: true
+    label: 
+      en: Price
+      de: Preis
+    marks:
+      - italic
+      - strike
+      - underline
+    placeholder: 99€
+    type: writer
+    width: 1/4
+  priceDetails:
+    inline: true
+    label: 
+      en: Price details
+      de: Preis Details
+    marks:
+      - italic
+      - strike
+      - underline
+    placeholder: /Monat
+    type: writer
+    width: 1/4
+  text:
+    inline: true
+    label: Text
+    placeholder: Text...
+    type: writer
+  features:
+    label: 
+      en: Features
+      de: Eigenschaften
+    type: list
+  linkfield:
+    extends: fields/linkfield
+  link:
+    default: page
+    empty: false
+    label: Link
+    options:
+      page: Page
+      url: URL
+    type: select
+    width: 1/4
+  linkPage:
+    label: 
+      en: Page
+      de: Seite
+    max: 1
+    type: pages
+    when:
+      link: page
+    width: 3/4
+  linkUrl:
+    label: URL
+    type: url
+    when:
+      link: url
+    width: 2/4
+  linkTarget:
+    label: Open
+    text:
+      - 
+        en: same tab
+        de: gleicher Tab
+      - 
+        en: New tab
+        de: Neuer Tab
+    type: toggle
+    when:
+      link: url
+    width: 1/4
+  line:
+    type: line
+  fontColor:
+    extends: fields/font-color
+  alignContent:
+    extends: fields/align-content
+  alignBlock:
+    extends: fields/align-block
+  width:
+    extends: fields/width
+  background: fields/background

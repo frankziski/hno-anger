@@ -1,0 +1,233 @@
+title: Blog
+image:
+  back: gray-800
+  icon: book
+
+options:
+  changeSlug: false
+  changeStatus:
+    admin: true
+    author: false
+    editor: true
+  changeTitle:
+    admin: true
+    author: false
+    editor: true
+  create: false
+  delete:
+    admin: true
+    author: false
+    editor: false
+  duplicate: false
+  update:
+    admin: true
+    author: false
+    editor: true
+
+tabs:
+  pages:
+    label:
+      en: Articles
+      de: Artikel
+    icon: book
+    columns:
+      - width: 1/3
+        sections:
+          blogdrafts:
+            extends: sections/blog-section
+            headline: 
+              en: Drafts
+              de: Entwürfe
+            image: page.cover.toFile
+            status: draft
+            sortBy: published desc
+            sortable: false
+            template: article
+      - width: 2/3
+        sections:
+          bloglisted:
+            extends: sections/blog-section
+            headline: 
+              en: Published
+              de: Gelistet
+            image: page.cover.toFile
+            status: listed
+            sortBy: published desc
+            sortable: false
+          blogunlisted:
+            extends: sections/blog-section
+            headline: 
+              en: Unlisted
+              de: Ungelistet
+            image: page.cover.toFile
+            status: unlisted
+            sortBy: published desc
+            sortable: false
+  settings:
+    label:
+        en: Blog-Settings
+        de: Blog-Einstellungen
+    icon: cog
+    columns:
+      - width: 1/1
+        sections:
+          blogGeneral:
+            type: fields
+            fields:
+              blogGeneralHl:
+                type: headline
+                label:
+                  en: General
+                  de: Allgemein
+              blogtags:
+                label: Blog-Tags
+                type: tags
+                width: 1/2
+              placeholderImage:
+                extends: fields/cover
+                label: Platzhalterbild
+                width: 1/2
+                help: 
+                  en: show on post-teasers when no cover is set
+                  de: wird angezeigt beim Laden von Beiträgen die kein Cover-Foto haben
+      - width: 1/2
+        sections:
+          blogPageSettings:
+            type: fields
+            fields:
+              bpSettingsHl:
+                type: headline
+                label:
+                  en: Blog-Page Settings
+                  de: Einstellungen Blog-Seite
+              showSidebar:
+                extends: fields/toggler
+                icon: grid-right
+                width: 1/2
+                label: 
+                  en: Sidebar
+                  de: Seitenleiste
+              showAuthor:
+                extends: fields/toggler
+                icon: user
+                width: 1/2
+                label: 
+                  en: Author
+                  de: Autor
+              showDate:
+                extends: fields/toggler
+                icon: calendar
+                width: 1/2
+                label: 
+                  en: Date
+                  de: Datum
+              showTags:
+                extends: fields/toggler
+                label: Tags
+                icon: tag
+                width: 1/2
+              showCover:
+                extends: fields/toggler
+                icon: image
+                width: 1/2
+                label: 
+                  en: Cover-Image
+                  de: Cover-Bild
+              excerptLength:
+                label: 
+                  en: Length of Excerpt (Chars)
+                  de: Zeichenlänge Textauszug
+                placeholder: 160
+                default: 160
+                translate: true
+                help: Standard = 160
+                type: number
+              readMoreText:
+                label: 
+                  en: Read more text
+                  de: Weiterlesen - Text
+                placeholder: weiterlesen
+                type: text
+              postsPerPage:
+                label: 
+                  en: Posts per page
+                  de: Beiträge pro Seite
+                placeholder: 10
+                translate: true
+                type: number
+                step: 1
+                help: Leerlassen um alle Beiträge auf einer Seite anzuzeigen
+              emptyText:
+                label: 
+                  en: empty text
+                  de: Keine Beiträge - Text
+                placeholder: Keine Beiträge vorhanden
+                type: writer
+      - width: 1/2
+        sections:
+          articleOptions:
+            type: fields
+            fields:
+              aOptionsHl:
+                type: headline
+                label:
+                  en: Artikel-Page Settings
+                  de: Einstellungen Artikel-Seite
+              showSidebarSingle:
+                extends: fields/toggler
+                icon: grid-right
+                width: 1/2
+                label: 
+                  en: Sidebar
+                  de: Seitenleiste (Detailansicht)
+              showAuthorSingle:
+                extends: fields/toggler
+                icon: user
+                width: 1/2
+                label: 
+                  en: Author (Detail-Page)
+                  de: Autor (Detailseite)
+              showDateSingle:
+                extends: fields/toggler
+                icon: calendar
+                width: 1/2
+                label: 
+                  en: Date (Detail-Page)
+                  de: Datum (Detailseite)
+              showTagsSingle:
+                extends: fields/toggler
+                icon: tag
+                width: 1/2
+                label: 
+                  en: Tags (Detail-Page)
+                  de: Tags (Detailseite)
+              showCoverSingle:
+                extends: fields/toggler
+                icon: image
+                width: 1/2
+                label: 
+                  en: Cover-Image (Detail-Page)
+                  de: Cover-Bild (Detailseite)
+  layoutOptions:
+    label: Sidebar
+    icon: grid-right
+    fields:
+      sidebarblocks:
+        extends: fields/blocks-blog
+        when:
+          showSidebar: true
+          
+  filestab:
+    label:
+        en: files
+        de: Dateien
+    icon: image
+    sections:
+      files:
+        headline: 
+          en: Files
+          de: Dateien
+        sortBy: date desc
+        type: files
+        layout: cards
+        info: "{{ file.alt }}"

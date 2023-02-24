@@ -1,0 +1,16 @@
+name: Teaser
+icon: image
+fields:
+  image:
+    extends: fields/image
+  heading:
+    extends: fields/heading
+    width: 1/1
+  text:
+    label: Text
+    type: writer
+  linkfield:
+    extends: fields/linkfield
+  line:
+    type: line
+  blocksettings: fields/blocksettings

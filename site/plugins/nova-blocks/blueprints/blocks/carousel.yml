@@ -1,0 +1,110 @@
+icon: layers
+name: 
+  en: Carousel
+  de: Karussell
+fields:
+  carouselID:
+    label: ID
+    type: text
+    empty: false
+    default: carousel1
+  images: 
+    extends: fields/image
+    multiple: true
+    label: 
+      en: Images
+      de: Bilder
+  caption:
+    label: 
+      en: Caption
+      de: Bildunterschrift
+    text:
+      - 
+        en: Hide
+        de: Versteckt
+      - 
+        en: Show
+        de: Sichtbar
+    type: toggle
+    width: 1/3
+  groupCells:
+    label: 
+      en: Group Cells
+      de: Zellen gruppieren
+    text:
+      - 
+        en: Inactive
+        de: Inaktiv
+      - 
+        en: Active
+        de: Aktiv
+    type: toggle
+    width: 1/3
+  fullscreen:
+    label: 
+      en: Fullscreen Button
+      de: Vollbild Button
+    text:
+      - 
+        en: Inactive
+        de: Inaktiv
+      - 
+        en: Active
+        de: Aktiv
+    type: toggle
+    width: 1/3
+  controls:
+    label: 
+      en: Controls
+      de: Pfeile
+    text:
+      - 
+        en: Inactive
+        de: Inaktiv
+      - 
+        en: Active
+        de: Aktiv
+    type: toggle
+    width: 1/3
+  indicators:
+    label: Pagination
+    text:
+      - 
+        en: Inactive
+        de: Inaktiv
+      - 
+        en: Active
+        de: Aktiv
+    type: toggle
+    width: 1/3
+  autoPlay:
+    label: Auto-play
+    text:
+      - 
+        en: Inactive
+        de: Inaktiv
+      - 
+        en: Active
+        de: Aktiv
+    type: toggle
+    width: 1/3
+  autoPlayTime:
+    after: ms
+    label: 
+      en: Auto-play speed
+      de: Auto-play Geschwindigkeit
+    default: 1500
+    help: 1000ms = 1s
+    type: number
+    when:
+      autoPlay: true
+  placeholderImage:
+    extends: fields/cover
+    label: Platzhalterbild
+    width: 1/2
+    help: 
+      en: show on post-teasers when no cover is set
+      de: wird angezeigt beim Laden von Beiträgen die kein Cover-Foto haben
+  line:
+    type: line
+  blocksettings: fields/blocksettings

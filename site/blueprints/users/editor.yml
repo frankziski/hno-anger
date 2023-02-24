@@ -1,0 +1,17 @@
+title: Editor
+description: 
+  en: Can create pages and posts.
+  de: Kann Seiten und Beiträge erstellen.
+
+extends: users/default
+
+permissions:
+  access:
+    settings: false
+  site:
+    update: false
+  user:
+    changeRole: false
+    create: false
+    delete: false
+  users: false

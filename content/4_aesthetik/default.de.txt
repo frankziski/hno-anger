@@ -1,0 +1,45 @@
+Title: Ästhetik
+
+----
+
+Blocks: [{"attrs":{"width":"full","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-page-header"},"columns":[{"blocks":[{"content":[],"id":"43994775-3fb5-4067-9de4-5ce5897a899c","isHidden":false,"type":"spacer"},{"content":{"text":"<h1>\u00c4sthetische Behandlungen<\/h1>","fontcolor":"primary","aligncontent":"center","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"80d9b7c3-f86f-47a9-9c98-6f4379028316","isHidden":false,"type":"text"},{"content":[],"id":"ed8da95e-2818-45c8-88e8-b42fb3bfbfb9","isHidden":false,"type":"spacer"}],"id":"11d1f8db-9320-4120-a68d-db216e2178f4","width":"1\/1"}],"id":"b71408ad-2129-41f3-88ae-30fb788d32de"},{"attrs":{"width":"large","alignvertical":"align-items-end","padding":"padding-bottom, padding-left, padding-right, padding-top","marginbottom":"false","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":"section-offer-heading"},"columns":[{"blocks":[{"content":{"text":"<h2>Behandlung mit Botox<\/h2>","fontcolor":"normal","aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"a39df62b-5599-4814-a40b-c9db464dcefc","isHidden":false,"type":"text"}],"id":"27a2c7b1-19b3-4b17-b50e-c112901194d0","width":"1\/1"}],"id":"c7e04c53-349a-4fd7-800c-d455272f80b1"},{"attrs":{"width":"large","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"true","visibility":"true","customid":"","customclass":"section-botox-info"},"columns":[{"blocks":[{"content":{"text":"<p><strong>Wof\u00fcr eignet sich die Behandlung mit Botox?<\/strong> <br>Faltenbehandlung des oberen Gesichtsbereiches<\/p><p><strong>Wie lange h\u00e4lt die Behandlung an?<\/strong> <br>Haltbarkeit etwa 3 \u2013 6 Monate<\/p><p><strong>Gibt es Nebenwirkungen?<\/strong> <br>Sehr selten in der Hand des erfahrenen Behandlers. Kleine Bluterg\u00fcsse im Bereich der Injektionsstellen k\u00f6nnen auftreten.<\/p><p><strong>Was kostet die Behandlung?<\/strong> <br>Ab 280\u20ac inkl. Material<\/p>","fontcolor":"normal","aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"a63784a4-68d0-4001-b102-675f03a681f6","isHidden":false,"type":"text"},{"content":{"linkfield":[{"link":"page","linktitle":"Details zur Behandlung","linkpage":["page:\/\/X6Gwkea9AISzz2cX"],"linkurl":"","linkmail":"","linkphone":"","linktarget":"false","linkanchor":"","linkparam":"","linkfile":[],"linkmodaltitle":"","linkmodal":"","style":"tertiary"}],"aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"e9a2bb85-9b57-4e91-bc5d-790357db0282","isHidden":false,"type":"button"}],"id":"b146eab1-d348-43f4-8bc3-ed9504ef1e4f","width":"1\/2"},{"blocks":[{"content":{"source":["file:\/\/JUt0kOm3Xs6d7PKu"],"showlightbox":"false","linkfield":[],"aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width"},"id":"770a8516-fccd-45c8-94ff-13339accf0a1","isHidden":false,"type":"image"}],"id":"1293d41a-4cea-47f0-b558-4fbdf61d0f7b","width":"1\/2"}],"id":"c6f307e6-bfea-404f-b66a-4269573798d9"},{"attrs":{"width":"full","alignvertical":"align-items-center","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":{"text":"<h2>Weitere Behandlungs(-)m\u00f6glichkeiten<\/h2>","fontcolor":"primary","aligncontent":"center","alignblock":"","width":"","bgenabled":"false","bgtype":"","color":"","backgroundimage":[],"positionhorizontal":"","positionvertical":"","backgroundsize":""},"id":"83f503a1-e6ee-44ca-a983-30df19b4765b","isHidden":false,"type":"text"}],"id":"227793d7-31a4-4f95-a858-a7bd742f8f68","width":"1\/1"}],"id":"bdff93e1-77fb-40f1-a733-77af19e70aeb"},{"attrs":{"width":"large","alignvertical":"align-items-stretch","padding":"padding-top, padding-bottom, padding-left, padding-right","marginbottom":"true","bgenabled":"false","bgtype":"","color":"normal","backgroundimage":[],"positionhorizontal":"center","positionvertical":"center","backgroundsize":"full-width","columnreverse":"false","visibility":"true","customid":"","customclass":""},"columns":[{"blocks":[{"content":{"text":"<h3>Anwendung von Hyalurons\u00e4ure (\u201eFiller\u201c) im Gesicht <\/h3><ul><li><p>zur Unterspritzung von Falten  <\/p><\/li><li><p>zum Auff\u00fcllen von Volumendefiziten.<\/p><\/li><\/ul>","fontcolor":"","aligncontent":"","alignblock":"","width":"","bgenabled":"false","bgtype":"","color":"","backgroundimage":[],"positionhorizontal":"","positionvertical":"","backgroundsize":""},"id":"2df48582-2746-406c-bfc9-bd5965faae5c","isHidden":false,"type":"text"}],"id":"5c1f9dde-3c3d-4714-bd26-a6052e43364f","width":"1\/3"},{"blocks":[{"content":{"text":"<h3>Fadenlifting<\/h3><ul><li><p>zur St\u00e4rkung der Hautstruktur und -Elastizit\u00e4t <\/p><\/li><li><p>zur Hautstraffung im Gesicht, Hals und Dekollet\u00e9.<\/p><\/li><\/ul>","fontcolor":"","aligncontent":"","alignblock":"","width":"","bgenabled":"false","bgtype":"","color":"","backgroundimage":[],"positionhorizontal":"","positionvertical":"","backgroundsize":""},"id":"99b8a9bf-26d7-485a-acf3-9a040b43bbbf","isHidden":false,"type":"text"}],"id":"45feda71-8941-4c61-87be-9c46b699c3c4","width":"1\/3"},{"blocks":[{"content":{"text":"<h3>\u00c4sthetische Operationen<\/h3><ul><li><p>Augenlidkorrektur<\/p><\/li><li><p>Ohrl\u00e4ppchenrekonstruktion<\/p><\/li><li><p>Ohrmuschelkorrekturen<\/p><\/li><li><p>Entfernung st\u00f6render Hautver\u00e4nderungen<\/p><\/li><\/ul>","fontcolor":"","aligncontent":"left","alignblock":"left","width":"full","bgenabled":"false","bgtype":"","color":"","backgroundimage":[],"positionhorizontal":"","positionvertical":"","backgroundsize":""},"id":"8070b5ea-f8a0-46ec-8599-52b1862aeac4","isHidden":false,"type":"text"}],"id":"b73684d6-2d18-4b65-8029-3ab067c2425b","width":"1\/3"}],"id":"382c2568-78bb-4915-bbd9-578a1435dc56"}]
+
+----
+
+Pagetitle: 
+
+----
+
+Keywords: 
+
+----
+
+Description: 
+
+----
+
+Cover: 
+
+----
+
+Excludefromsitemap: false
+
+----
+
+Date: 2023-02-15
+
+----
+
+Customcss: 
+
+----
+
+Codeheader: 
+
+----
+
+Codefooter: 
+
+----
+
+Uuid: KSOOjdhYWMy4eaHX

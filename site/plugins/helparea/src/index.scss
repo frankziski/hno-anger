@@ -1,0 +1,83 @@
+html, body { overflow: visible; }
+
+.k-panel-helparea {
+    .k-panel-view.scroll-y,
+    .k-panel-view.scroll-y-auto {
+        overflow-x: visible;
+        overflow-y: visible;
+    }
+}
+
+.k-helparea-sidebar,
+.k-helparea-sidebar>div {
+    height: 100%;
+}
+
+.k-helparea-menu {
+    position: sticky;
+    top: 1rem;
+    margin: 0 0.5rem 0 0;
+    padding: .5rem;
+    background-color: white;
+
+    button {
+        margin: 0 0 .5rem;
+        padding: .25rem;
+
+        &:hover {
+            color: black;
+            text-decoration: underline;
+        }
+    }
+}
+
+.k-helparea-content {
+    background-color: white;
+    padding: 2rem;
+    
+    .k-view {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2rem;
+    }
+    
+    .k-view:first-child {
+        margin-top: 0;
+
+        hr {
+            display: none;
+        }
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        margin: 1rem 1rem 1rem 0;
+    }
+    
+    hr {
+        margin: 2rem -2rem;
+        border: 0;
+        height: 1.5rem;
+        background-color: var(--color-background);
+    }
+    
+    h2.k-headline {
+        font-size: var(--font-size-h2);
+        background-color: black;
+        color: white;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+    }
+    h3.k-headline {
+        font-size: var(--font-size-h3);
+    }
+    h4.k-headline {
+        font-size: var(--font-size-h4);
+    }
+
+    a {
+        color: var(--color-blue);
+        text-decoration: underline;
+    }
+}

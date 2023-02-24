@@ -1,0 +1,24 @@
+{
+    "name": "fz/nova-blog",
+    "description": "A powerful blog-plugin to extend Kirby Nova. Requires the block-factory plugin by FZ",
+    "type": "kirby-plugin",
+    "version": "0.9.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phrank Ziski",
+            "email": "frank@ziski.de"
+        }
+    ],
+    "keywords": [
+      "kirby3",
+      "kirby3-cms",
+      "kirby3-plugin",
+      "kirby3-blocks",
+      "blog"
+    ],
+    "require": {
+      "php": ">=8.0.0",
+      "getkirby/composer-installer": "^1.1"
+    }
+}

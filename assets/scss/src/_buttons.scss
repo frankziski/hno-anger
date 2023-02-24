@@ -1,0 +1,103 @@
+button {
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background: transparent;
+
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: var(--space-05) var(--space-10);
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-buttons);
+    @include transition;
+
+    .icon {
+        &.left {
+            margin-left: 0 !important;
+            margin-right: var(--space-05);
+        }
+        &.right {
+            margin-left: var(--space-05);
+        }
+    }
+
+    &:focus {
+        border: none;
+        outline: 0;
+    }
+}
+
+.btn-style-primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+
+    &:hover, &:focus {
+        background: var(--color-white);
+        color: var(--color-primary);
+        border-color: var(--color-primary);
+    }
+
+    &:hover, &:focus {
+      .icon {
+        color: var(--color-primary) !important;
+      }
+    }
+
+    .icon {
+      color: var(--color-white) !important;
+    }
+}
+
+.btn-style-secondary {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+
+    &:hover, &:focus {
+        color: var(--color-white);
+        background-color: var(--color-primary);
+        border-color: var(--color-white);
+    }
+
+    &:hover, &:focus {
+      .icon {
+        color: var(--color-white) !important;
+      }
+    }
+
+    .icon {
+      color: var(--color-primary) !important;
+    }
+}
+
+.btn-style-tertiary {
+    background: var(--color-grey-button);
+    color: var(--color-text);
+
+    &:hover, &:focus {
+        background: var(--color-black);
+        color: var(--color-white);
+    }
+}
+
+.block-type-button {
+    a:not(:only-child) {
+        margin: var(--space-05);
+    }
+}

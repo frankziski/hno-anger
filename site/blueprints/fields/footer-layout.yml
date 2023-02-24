@@ -1,0 +1,127 @@
+type: group
+fields:
+  blocks:
+      label: Footer-Layout
+      layouts:
+        - "1/1"
+        - "1/2, 1/2"
+        - "1/3, 1/3, 1/3"
+        - "1/4, 1/4, 1/4, 1/4"
+        - "1/3, 2/3"
+        - "2/3, 1/3"
+      type: layout
+      fieldsets: 
+        text: blocks/text
+        markdown: blocks/markdown
+        button: blocks/button      
+        info: blocks/info
+        quote: blocks/quote      
+        table: blocks/table      
+        image: 
+          extends: blocks/image
+          fields:
+            source:
+              label: 
+                en: Image
+                de: Bild 
+              type: files
+              multiple: false
+              query: site.files.filterBy('template', 'image').sortBy('date', 'desc')
+              layout: cards
+              uploads: image
+        spacer: blocks/spacer
+    settings:
+      fields:
+        width: 
+          extends: fields/width
+          columns: 1
+          width: 1/2
+        alignVertical:
+          label: 
+            en: Vertical alignment
+            de: Vertikale Ausrichtung
+          default: align-items-center
+          type: multi-toggle
+          options:
+            align-items-center: 
+              en: Middle
+              de: Mittig
+            align-items-start: 
+              en: Top
+              de: Oben
+            align-items-end: 
+              en: Bottom
+              de: Unten
+            align-items-stretch: 
+              en: Stretcg
+              de: Ausfüllen
+          translate: false
+          width: 1/2
+        padding:
+          label: 
+            en: Padding
+            de: Abstand
+          type: checkboxes
+          columns: 4
+          default: 
+            - padding-top
+            - padding-bottom
+            - padding-left
+            - padding-right
+          options:
+            padding-top: 
+              en: Top
+              de: Oben
+            padding-bottom: 
+              en: Bottom
+              de: Unten
+            padding-left: 
+              en: Left
+              de: Links
+            padding-right: 
+              en: Right
+              de: Rechts
+          translate: false
+        columnReverse:
+          label: 
+            en: Reverse columns on mobile
+            de: Mobile - Spalten umkehren
+          text:
+            - 
+              en: Inactive
+              de: Inaktiv
+            - 
+              en: Active
+              de: Aktiv
+          type: toggle
+          translate: true
+          width: 1/2
+        visibility:
+          default: true
+          icon: preview
+          label: 
+            en: Visibility
+            de: Sichtbarkeit
+          text:
+            - 
+              en: Hide
+              de: Verborgen
+            - 
+              en: Show
+              de: Sichtbar
+          type: toggle
+          width: 1/2
+        background:
+          extends: fields/background
+        customId:
+          label: ID
+          type: text
+          translate: false
+          width: 1/2
+        customClass:
+          label: 
+            en: Class
+            de: Klasse
+          type: text
+          translate: false
+          width: 1/2

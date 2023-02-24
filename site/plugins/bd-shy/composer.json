@@ -1,0 +1,12 @@
+{
+  "name": "bd/kirby-shy",
+  "description": "Kirby Shy Converter",
+  "license": "MIT",
+  "authors": [
+    {
+        "name": "Stephan Besser",
+        "email": "sb@besser.design",
+        "homepage": "https://besser.design"
+    }
+  ]
+}
