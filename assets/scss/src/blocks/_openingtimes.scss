@@ -29,6 +29,21 @@ dl.opening-times {
             border-bottom: 2px solid var(--color-grey);
             padding-bottom: var(--space-05);
         }
+
+        @include mobileSm() {
+            display: block;
+
+            dt {
+                text-align: center;
+                border-bottom: 0;
+                padding-top: var(--space-10);
+            }
+
+            dd {
+                text-align: center;
+                padding-bottom: var(--space-10);
+            }
+        }
     }
 
     &.horizontal {

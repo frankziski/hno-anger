@@ -257,6 +257,10 @@
       margin-bottom: var(--space-10);
     }
 
+    .block-type-text+.block-type-button {
+      margin-top: 0
+    }
+
     .block-type-openingtimes {
       .opening-times-wrapper {
         position: relative;
@@ -264,6 +268,11 @@
         padding: var(--space-30) var(--space-10) var(--space-20);
         border-radius: 24px;
         text-align: center;
+
+        .title {
+          @include h4;
+          margin-top: 0;
+        }
 
         dl {
           dt {
@@ -282,7 +291,7 @@
         flex: 1 0 auto;
         .opening-times-wrapper {
           flex: 1 0 auto;
-          max-width: 80%;
+          max-width: 90%;
           margin: 0 auto;
         }
       }
@@ -363,6 +372,13 @@
 .section-office-opener {
   height: 100vh;
   overflow: hidden;
+
+  @include medium {
+    .align-items-stretch>* {
+      justify-content: flex-start;
+    }
+  }
+
   .container-fluid {
     padding: 0 0;
 
@@ -381,15 +397,6 @@
 .section-get-in-touch {
   .block-type-button {
     margin-top: var(--space-20);
-  }
-}
-
-.section-team-docs {
-  .opening-times-wrapper {
-    .title {
-      @include h4;
-      margin-top: 0;
-    }
   }
 }
 
@@ -501,6 +508,15 @@
   .section-contact {
     .block-col:first-child {
       margin-bottom: var(--space-30);
+    }
+  }
+}
+
+@include mobileSm {
+  .section-contact-opening-hours {
+    .row {
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 }
