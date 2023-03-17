@@ -205,31 +205,28 @@ tabs:
             translate: true
             type: text
 
-          socialSettingsHeadline:
-            label: Social-Media
-            numbered: false
-            type: headline
-          socialProfiles:
-            label: 
-              en: Social Media Profiles
-              de: Social Media Profile
-            type: structure
-            fields:
-              socialProfileName:
-                label: Name
-                type: text
-              socialProfileLink:
-                label: URL
-                type: url
-              socialProfileIcon:                
-                label: Icon (SVG-Code)
-                type: text
-
       - width: 1/2
         sections:
           content:
             type: fields
             fields:
+              modalHeadline:
+                label: Ankündigung
+                numbered: false
+                type: headline
+              showModal:
+                extends: fields/toggler
+                label: 
+                  en: Show Modal Banner
+                  de: Modalfenster
+                width: 1/2
+              modalTitle:
+                label: Modal Titel
+                type: text
+                width: 1/2
+              modalText:
+                label: Modalfenster Text
+                type: writer
               logoHeadline:
                 label: Logo
                 numbered: false
@@ -292,24 +289,6 @@ tabs:
                   en: The cover is added to your URL when shared on social media. Pages without a cover will use this image instead. We recommend at least 500px wide.
                   de: Das Cover wird zu Links hinzugefüt wenn diese auf sozialen Medien geteilt werden. Seiten ohne Cover zeigen immer dieses Bild an. Mindestens 500px Breit
                 query: site.images.sortBy('date', 'desc')
-
-              cookieHeadline:
-                label: Cookies
-                numbered: false
-                type: headline
-              showCookiebanner:
-                extends: fields/toggler
-                label: 
-                  en: Show Cookie Banner
-                  de: Cookiebanner
-                width: 1/3
-              cookiehintText:
-                label: Cookiehinweis Text
-                type: writer
-                width: 2/3
-                help: Wird ausgegeben anstelle von Inhalten die Cookie-Berechtigung brauchen
-                when:
-                  showCookiebanner: true
 
               styleHeadline:
                 label: Style

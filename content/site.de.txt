@@ -38,7 +38,15 @@ Languagecode:
 
 ----
 
-Socialprofiles: 
+Showmodal: true
+
+----
+
+Modaltitle: Geänderte Öffnungszeiten
+
+----
+
+Modaltext: <p><strong>Bitte beachten Sie unsere geänderten Öffnungszeiten an folgenden Daten:</strong></p><ul><li><p>am <strong>20.03.</strong> von 10.00 Uhr -12.00 Uhr <br>und 13.00 Uhr - 18.00 Uhr</p></li><li><p>am <strong>30.03.</strong> <strong>und 31.03.</strong> bleibt die Praxis geschlossen!</p></li><li><p>am <strong>03.04.</strong> von 8.00 Uhr - 12.00 Uhr <br>und 13.00 Uhr - 15.00 Uhr</p></li></ul>
 
 ----
 
@@ -62,16 +70,20 @@ Cover: - file://JUt0kOm3Xs6d7PKu
 
 ----
 
-Showcookiebanner: false
-
-----
-
-Cookiehinttext: 
-
-----
-
 Customcss: 
 
 ----
 
 Codeheader: 
+
+----
+
+Socialprofiles: 
+
+----
+
+Showcookiebanner: false
+
+----
+
+Cookiehinttext: 
