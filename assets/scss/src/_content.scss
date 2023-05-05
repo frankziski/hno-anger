@@ -520,3 +520,17 @@
     }
   }
 }
+
+.kacheln-leistungen {
+  h4 {
+    color: var(--color-primary);
+
+    + ul {
+      margin-top: var(--space-20);
+    }
+  }
+
+  + .kacheln-leistungen {
+    padding-top: var(--margin-blocks);
+  }
+}
